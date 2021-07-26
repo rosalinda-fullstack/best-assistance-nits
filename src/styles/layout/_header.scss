@@ -11,16 +11,30 @@
         display: flex;
         justify-content: space-between;
         flex-direction:row;
+        padding-bottom: 33px;
     }
 
+    .logo {
+        margin-top: 14px;
+    }
+
+    #navbarSupportedContent {
+        margin-top: 27px;
+        margin-left: 312px;
+    }
+
+
     .nav-link {
+        margin-right: 26px;
+
         font-family: $font-opensans-regular;
-        font-size: 14px;
+        font-size: 15px;
         color: $black;
     }
+
     
     .btn-telephone-number {
-        padding: 9px 26px 9px;
+        padding: 9px 22px 11px;
 
         background-color: $orange;
         border: none;
@@ -31,22 +45,57 @@
         }
     }
 
+    .telephone-icon {
+        width: 13%;
+    }
+
     #telephone-number {
+        padding-left: 2px;
         display: inline-block;
 
         font-size: 13px;
         color: $white;
+        letter-spacing: 0.6px;
         text-decoration: none;
     }
 
-    .language-menu-dropdown {
+    .navbar-buttons {
+        margin-top: 29px;
+        margin-right: 4px;
+
+        .language-menu-dropdown {
+            padding: 14px 22px 14px;
+    
+            background-color: $blue;
+            border-radius: 24px;
+    
+            font-family: $font-opensans-regular;
+            font-size: 15px;
+            color: $white;
+        }
+
+    }
+    
+    .language-dropdown {
+        position: absolute;
+        right: 147px;
+        top:85px;
+
         padding: 0 15px 0;
+                
+        list-style: none;
+        
+        border-radius: 10px;
+        background-color: $dark-grey;
 
-        background-color: $blue;
-        border-radius: 22px;
+        transition: 0.3s ease-in-out;
+    }
 
-        font-family: $font-opensans-bold;
+    #language-item {
+        font-family: $font-opensans-regular;
         font-size: 14px;
-        color: $brand-color;
+        color: $white;
+        text-decoration: none;
     }
 }
+    

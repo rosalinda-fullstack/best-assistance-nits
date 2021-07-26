@@ -15,11 +15,20 @@ AppName.Modules.ThemeModule = (function () {
     });
   };
 
+  // const _desktopLanguageoption = () => {
+  //   $(document).ready(function() {
+  //     $('.fa-angle-down').click(function(){
+  //     $('.language-dropdown').toggle();
+  //     })
+  //   });
+  // }
+
   /////////////////////
   // Public Methods //
   ///////////////////
   const init = function () {
     _privateMethod();
+    _desktopLanguageoption();
   };
 
   return {
