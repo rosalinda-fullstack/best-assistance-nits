@@ -5,6 +5,7 @@
 // -----------------------------------------------------------------------------
 
 .section-header {
+<<<<<<< HEAD
     position: fixed;
     z-index: 999;
 
@@ -760,5 +761,39 @@
             color: $white;
         }
     
+=======
+    background-color: $white;
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        flex-direction:row;
+
+    }
+
+    #main-menu {
+        font-family: $font-opensans-regular;
+        font-size: 14px;
+        color: $black;
+    }
+    
+
+    .btn-telelephone-number {
+        padding: 0 5px 0;
+
+        background-color: $orange;
+        border: none;
+        border-radius: 22px;
+    }
+
+    #telephone-number {
+        font-family: $font-opensans-fa-brands-400;
+        font-size: 12px;
+        color: $white;
+    }
+
+    .options {
+        border: none;
+>>>>>>> e9714bc (Code update)
     }
 }
