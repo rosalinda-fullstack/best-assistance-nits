@@ -4,4 +4,16 @@
 // This file contains all @font-face declarations, if any.
 // -----------------------------------------------------------------------------
 
-@include font-face($font-opensans, $base-url + 'fonts/', 'opensans-regular', 'opensans-regular');
+@include font-face($font-opensans-fa-brands-400, $base-url + 'fonts/', 'fa-brands-400' , 'fa-brands-400');
+
+@include font-face($font-opensans-fa-regular-400, $base-url + 'fonts/', 'fa-regular-400' , 'fa-regular-400');
+
+@include font-face($font-opensans-fa-solid-900, $base-url + 'fonts/', 'fa-solid-900' , 'fa-solid-900');
+
+@include font-face($font-opensans-fontawesome-webfont, $base-url + 'fonts/', 'fontawesome-webfont' , 'fontawesome-webfont');
+
+@include font-face($font-opensans-bold, $base-url + 'fonts/', 'OPENSANS-BOLD' , 'OPENSANS-BOLD');
+
+@include font-face($font-opensans-regular, $base-url + 'fonts/', 'opensans-regular', 'opensans-regular');
+
+@include font-face($font-opensans-semibold, $base-url + 'fonts/', 'OpenSans-Semibold', 'OpenSans-Semibold');
