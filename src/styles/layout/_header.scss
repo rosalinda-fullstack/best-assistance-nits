@@ -5,7 +5,6 @@
 // -----------------------------------------------------------------------------
 
 .section-header {
-<<<<<<< HEAD
     position: fixed;
     z-index: 999;
 
@@ -761,55 +760,5 @@
             color: $white;
         }
     
-=======
-    background-color: $white;
-    
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        flex-direction:row;
-    }
-
-    .nav-link {
-        font-family: $font-opensans-regular;
-        font-size: 14px;
-        color: $black;
-    }
-    
-    .btn-telephone-number {
-        padding: 9px 26px 9px;
-
-        background-color: $orange;
-        border: none;
-        border-radius: 28px;
-
-        &:hover {
-           list-style: none;
-        }
-    }
-
-    #telephone-number {
-        display: inline-block;
-
-        font-size: 13px;
-        color: $white;
-        text-decoration: none;
-    }
-
-<<<<<<< HEAD
-    .options {
-        border: none;
->>>>>>> e9714bc (Code update)
-=======
-    .language-menu-dropdown {
-        padding: 0 15px 0;
-
-        background-color: $blue;
-        border-radius: 22px;
-
-        font-family: $font-opensans-bold;
-        font-size: 14px;
-        color: $brand-color;
->>>>>>> ac7a363 (message here)
     }
 }
