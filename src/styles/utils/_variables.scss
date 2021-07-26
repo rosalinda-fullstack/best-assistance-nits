@@ -5,9 +5,12 @@
 // -----------------------------------------------------------------------------
 
 /// Regular font family
-$font-opensans: 'Open Sans';
+$font-opensans: 'Open-Sans';
+$font-opensans-bold:'opensan-bold';
+$font-opensans-regular: 'opensans-regular';
+$font-opensans-semibold: 'OpenSans-Semibold';
 
-/// @type List
+/// @type Lists
 $text-font-stack: $font-opensans, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
 
 /// Code (monospace) font family
@@ -44,3 +47,5 @@ $base-url: '../assets/' !default;
 $white: #ffffff;
 
 $orange: #ff9d5c;
+
+$blue: #296d98;
