@@ -20,6 +20,14 @@ $(document).ready(function() {
   });
 }
 
+  // const _desktopLanguageoption = () => {
+  //   $(document).ready(function() {
+  //     $('.fa-angle-down').click(function(){
+  //     $('.language-dropdown').toggle();
+  //     })
+  //   });
+  // }
+
   /////////////////////
   // Public Methods //
   ///////////////////

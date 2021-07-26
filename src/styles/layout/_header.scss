@@ -83,11 +83,13 @@
     }
 
     #telephone-number {
+        padding-left: 2px;
         display: inline-block;
         padding: 11px 0 10px;
 
         font-size: 15px;
         color: $white;
+        letter-spacing: 0.6px;
         text-decoration: none;
     }
 
@@ -762,3 +764,4 @@
     
     }
 }
+    
