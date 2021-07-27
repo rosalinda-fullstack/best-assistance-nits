@@ -7,27 +7,144 @@
 .home {
   transition: all .2s ease-in-out;
   
-  .section-intro {
-    padding: 40px 0;
+  .section-banner {
+    padding: 100px 0;
 
-    text-align: center;
+    background-image: url("/assets/images/3.fw.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: inherit;
+
+    .swiper-container {
+      margin: 111px 0 0 5px;
+      width: 50%;
+      height: auto;
+      overflow: hidden;
+
+      background:none;
+    }
+   
+    .swiper-slide {
+      display: flex;
+      width: 759px;
+
+      background: none;
+    }
+
+    .banner-title {
+      padding-bottom: 33px;
+
+      font-family: $font-opensans-bold;
+      font-size: 58px;
+      color: $white;
+      letter-spacing: 0.9px;
+      line-height: 1.25;
+    }
+
+    .swiper-pagination {
+      color: $white;
+    }
+
+    .swiper-pagination-bullets {
+      bottom: 0;
+
+      width: 7%;
+    }
+
+    .swiper-pagination-bullet-active {
+      background: $white;
+    }
+
+    .three-info-content {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin-top: 41px;
+      width: 33%;
+    }
+    
+    .mission-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 44px;
+      width: 78px;
+    }
+
+    .mission-icon {
+      &:first-child {
+        width: 60px;
+      }
+
+      &:nth-child(2) {
+        width: 60px;
+      }
+
+      &:last-child {
+        width: 60px;
+      }
+    }
+
+    .mission-heading {
+      padding-top: 12px;
+      width: 75px;
+      
+      font-family: $font-opensans-bold;
+      font-size: 15px;
+      color: $white;
+      text-align: center;
+
+      &:nth-child(2) {
+        width: 95px;
+      }
+    }
+
+    .fixed-sidebar {
+      position: fixed;
+      top: 40%;
+      right: 0;
+
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+
+      background-color: $light-grey;
+    }
+
+    .sidebar-icon {
+      &:first-child {
+        margin: 25px 25px 0;
+        width: 17%;
+      }
+
+      &:nth-child(2) {
+        margin: 32px 21px 0;
+        width: 28%;
+      }
+
+      &:nth-child(3) {
+        margin: 33px 21px 0;
+        width: 30%;
+      }
+
+      &:nth-child(4) {
+        margin: 33px 21px 22px;
+        width: 28%;
+      }
+
+      &:last-child {
+        padding: 5px 0 0 0;
+        margin: 0 22px 5px;
+        width: 30%;
+
+        display: block;
+
+        border-width: 5px;
+        border-top: 1px $mid-grey solid;
+      }
+    }
   }
 }
 
 
-.swiper-container {
-  margin-top: 40px;
-  width: 500px;
-  height: 300px;
-  overflow: hidden;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
