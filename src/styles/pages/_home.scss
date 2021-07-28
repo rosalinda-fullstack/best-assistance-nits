@@ -8,7 +8,7 @@
   transition: all .2s ease-in-out;
   
   .section-banner {
-    padding: 100px 0;
+    padding: 100px 0 180px;
 
     background-image: url("/assets/images/3.fw.png");
     background-repeat: no-repeat;
@@ -111,37 +111,178 @@
       background-color: $light-grey;
     }
 
-    .sidebar-icon {
-      &:first-child {
-        margin: 25px 25px 0;
-        width: 17%;
-      }
+    
+    // .sidebar-icon {
+    //   &:first-child {
+    //     margin: 26px 0 0 23px;
+    //     width: 16%;
+    //   }
 
-      &:nth-child(2) {
-        margin: 32px 21px 0;
-        width: 28%;
-      }
+    //   &:nth-child(2) {
+    //     margin: 32px 21px 0;
+    //     width: 28%;
+    //   }
 
-      &:nth-child(3) {
-        margin: 33px 21px 0;
-        width: 30%;
-      }
+    //   &:nth-child(3) {
+    //     margin: 33px 21px 0;
+    //     width: 30%;
+    //   }
 
-      &:nth-child(4) {
-        margin: 33px 21px 22px;
-        width: 28%;
-      }
+    //   &:nth-child(4) {
+    //     margin: 33px 21px 22px;
+    //     width: 28%;
+    //   }
 
-      &:last-child {
-        padding: 5px 0 0 0;
-        margin: 0 22px 5px;
-        width: 30%;
+    //   &:last-child {
+    //     padding: 5px 0 0 0;
+    //     margin: 0 22px 5px;
+    //     width: 30%;
 
-        display: block;
+    //     display: block;
 
-        border-width: 5px;
-        border-top: 1px $mid-grey solid;
-      }
+    //     border-width: 5px;
+    //     border-top: 1px $mid-grey solid;
+    //   }
+    // }
+  }
+
+  .section-mission {
+    .our-mission-container {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .image {
+      padding-top: 78px;
+    }
+    
+    .information {
+      padding-top: 65px;
+      padding-left: 27px;
+    }
+    
+    .mission-title {
+      margin-bottom: 36px;
+
+      font-family: $font-opensans-bold;
+      font-size: 40px;
+    }
+
+    .content-mission {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .check-icon {
+      margin-left: 6px;
+      width: 6%;
+      height: 1%;
+    }
+
+    .mission-heading {
+      margin: 0 16px 19px;
+      
+      font-size: 18px;
+      letter-spacing: 0.5px;
+    }
+
+    .icon-buttons {
+      margin: 57px 2px;
+    }
+
+    .btn-best-assistance {
+      padding: 19px 26px 3px;
+
+      background-color: $orange;
+      border: none;
+      border-radius: 28px;
+    } 
+    
+    .btn-history {
+      padding: 19px 59px 3px;
+      
+      background-color: $blue;
+      border: none;
+      border-radius: 28px;
+    } 
+
+    .button-heading {
+      font-family: $font-opensans-bold;
+      font-size: 14px;
+      word-spacing: 1.3px;
+    }
+
+    .solution-box {
+      position: relative;
+      bottom: 91px;
+      left: 80px;
+
+      background-image: url("/assets/images/9.fw.png");
+      background-repeat: no-repeat;
+      background-size: cover; 
+    }
+
+    .solution-title {
+      margin: 151px 72px 0 87px;
+      font-family: $font-opensans-bold;
+      font-size: 40px;
+    }
+
+    .content-solution {
+      padding: 32px 0 129px 90px;
+    }
+
+    .paragraph-solution {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .description-holder {
+      display: flex;
+      flex-direction: column;
+      padding: 0 32px;
+    }
+
+    .solution-heading {
+      margin-bottom: 6px;
+
+      font-family: $font-opensans-bold;
+      font-size: 18px;
+    }
+
+    .profile-icon {
+      width: 8%;
+      height: 1%;
+    }
+
+    .description {
+      margin-bottom: 26px;
+
+      font-family: $font-opensans-regular;
+      font-size: 17px;
+    }
+  }
+
+  .section-reading {
+    .title-button-holder {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .heading-description {
+      padding: 2px 3px 0;
+    }
+
+    .reading-heading {
+      font-family: 'opensans-regular';
+      font-size: 18.95px;
+      letter-spacing: 0.3px;
+    }
+
+    .reading-title {
+      font-family: $font-opensans-bold;
+      font-size: 40px;
     }
   }
 }
