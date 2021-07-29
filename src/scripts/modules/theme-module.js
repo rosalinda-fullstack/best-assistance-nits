@@ -14,6 +14,31 @@ AppName.Modules.ThemeModule = (function () {
       },
     });
   };
+  const _swiperReading = () => {
+    // private stuff
+
+    const swiperReading = new Swiper('.swiper-reading', {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+      },
+    });
+  };
+
+  const _filter = () => {
+    $(document).ready(function(){
+      $('.fa-angle-down').click(function() {
+      $('.filter-dropdown').toggle();
+      })
+      $("filter-dropdown").hover(function() {
+        $('#dropdown-item').css("display", "block");
+        }, function(){
+        $('#dropdown-item').css("display", "none");
+      });
+    })
+  }
 
   const _swiperReading = () => {
     // private stuff

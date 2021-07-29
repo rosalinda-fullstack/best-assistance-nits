@@ -341,15 +341,10 @@ html {
           color: $white;
         }
 
-        .description {
-          margin-bottom: 30px;
-    
-          font-family: $font-opensans-regular;
-          font-size: 16px;
-          color: $white;
-          letter-spacing: 0.4px;
-        }
-      }
+      font-family: $font-opensans-bold;
+      font-size: 18px;
+      color: $white;
+    }
 
       &:nth-child(2) {
         .profile-icon {
@@ -366,71 +361,9 @@ html {
           color: $white;
         }
 
-        .description {
-          margin: 2px 5px 0;
-    
-          font-family: $font-opensans-regular;
-          font-size: 16px;
-          color: $white;
-          letter-spacing: 0.2px;
-        }
-      }
-
-      &:nth-child(3) {
-        .profile-icon {
-          margin: 32px 2px;
-          width: 8%;
-          height: 1%;
-        }
-
-        .solution-heading {
-          margin: 21px 1px 4px;
-
-          font-family: $font-opensans-bold;
-          font-size: 18px;
-          color: $white;
-        }
-
-        .description {
-          margin-bottom: 26px;
-    
-          font-family: $font-opensans-regular;
-          font-size: 16px;
-          color: $white;
-          letter-spacing: 0.4px;
-        }
-      }
-
-      &:last-child {
-        .profile-icon {
-          margin: 9px 6px;
-          width: 7%;
-          height: 1%;
-        }
-
-        .solution-heading {
-          margin-bottom: 6px;
-    
-          font-family: $font-opensans-bold;
-          font-size: 18px;
-          color: $white;
-        }
-
-        .description {
-          margin-bottom: 27px;
-    
-          font-family: $font-opensans-regular;
-          font-size: 16px;
-          color: $white;
-          letter-spacing: 0.4px;
-        }
-      }
-    }
-
-    .description-holder {
-      display: flex;
-      flex-direction: column;
-      padding: 0 26px;
+      font-family: $font-opensans-regular;
+      font-size: 17px;
+      color: $white;
     }
   }
 
@@ -715,6 +648,94 @@ html {
     #top-leaf-background {
       width: 10%;
     }
+
+    .btn-filter {
+      padding: 16px 30px 0;
+
+      background-color: $mid-grey;
+      border: none;
+      border-radius: 35px;
+
+      transition: 0.3s ease-in-out;
+    }
+
+    .filter-by {
+      display: inline-block;
+      padding-right: 65px;
+  
+      font-family: $font-opensans-regular;
+      font-size: 17px;
+    }
+
+    .fa-angle-down {
+      display: inline-block;
+    }
+
+    .filter-dropdown {
+      position: relative;
+      bottom: 24px;
+
+      padding: 20px;
+
+      list-style: none;
+
+      background-color: grey;
+    }
+
+    #dropdown-heading {
+      padding: 10px;
+
+      font-family: $font-opensans-regular;
+      font-size: 14px;
+      color: $text-color;
+      list-style: none;
+    }
+
+    .swiper-container {
+      overflow: visible;
+      list-style: none;
+    }
+
+    .swiper-slide {
+      flex-shrink: 1;
+    }
+
+    .img-fluid {
+      max-width: 747px;
+      height: auto;
+    }
+
+    .title {
+      font-family: $font-opensans-bold;
+      font-size: 26px;
+    }
+
+    .sub-title {
+      font-family: $font-opensans-regular;
+      font-size: 14px;
+    }
+
+    span.label {
+      padding: 5px;
+      font-family: $font-opensans-bold;
+      font-size: 14px;
+
+      &:first-child {
+        background-color: $orange;
+      }
+
+      &:nth-child(2) {
+        background-color: $apple-green;
+      }
+
+      &:nth-child(3) {
+        background-color: $light-blue;
+      }
+
+      &:last-child {
+        background-color: $light-brown;
+      }
+    }
   }
 
   .section-system-platform {
@@ -996,6 +1017,7 @@ html {
       color: $white;
     }
   }
+}
 }
 
 @include respond-to (xs) {

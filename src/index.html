@@ -75,7 +75,7 @@
           </select>
       </div>
     </nav>
-  </header>
+  </header> 
 
   <main class="home">
     <div class="section-banner">
@@ -92,8 +92,7 @@
               <p class="banner-title"> YOUR LOCAL & REGIONAL MEDICAL CLAIM MANAGER </p>
             </div>
           </div>
-        <div class="swiper-pagination">
-        </div>
+        <div class="swiper-pagination"></div>
         </div>
         <div class="three-info-content">
           <div class="mission-info">
@@ -204,11 +203,47 @@
             <h1 class="reading-title"> Healthy Reading </h1>
             <p class="reading-heading"> Best Assistance tips & tricks to stay healthy in a few simple changes. </p>
           </div>
-          <select id="filter-option" name="filter-option">
-            <option data-icon="fa-angle-down" value="english"> Filter by <i class="fas fa-angle-down"></i></option>
-            <option value="grid"> Grid </option>
-            <option value="fullscreen"> Fullscreen </option>
-          </select>
+          <div class="dropdown">
+            <button class="btn-filter" type="button"> 
+              <p class="filter-by"> Filter by </p><i class="fa fa-angle-down"></i>
+            </button>
+            <ul class="filter-dropdown">
+              <li><a href="#dropdown-item" id="dropdown-heading"> News </a></li>
+              <li><a href="#dropdown-item" id="dropdown-heading"> Healthy Tips </a></li>
+              <li><a href="#dropdown-item" id="dropdown-heading"> Success Stories </a></li>
+              <li><a href="#dropdown-item" id="dropdown-heading"> Case Stories </a>
+            </ul>
+          </div>
+        </div>
+        <div class="swiper-container swiper-reading">
+          <div class="swiper-wrapper">
+            <div id="dropdown-item" class="swiper-slide">
+              <img src="assets/images/16.fw.png" class="img-fluid" alt="weapon-image">
+              <div class="text-holder">
+                <p class="title"> A new Weapon to fight cancer </p>
+                <p class="sub-title"> Jan 2017 </p>
+                <span class="label"> News </span>
+              </div>
+            </div>
+            <div id="dropdown-item" class="swiper-slide">
+              <img src="assets/images/17.fw.png" class="img-fluid" alt="weapon-image">
+              <p class="title"> Ten Ways modern life is making you sick </p>
+              <p class="sub-title"> Jan 2017 </p>
+              <span class="label"> Healthy Tips </span>
+            </div>
+            <div id="dropdown-item" class="swiper-slide">
+              <img src="assets/images/18.fw.png" class="img-fluid" alt="weapon-image">
+              <p class="title"> Take care of you Skin </p>
+              <p class="sub-title"> Jan 2017 </p>
+              <span class="label"> Success Stories </span>
+            </div>
+            <div id="dropdown-item" class="swiper-slide">
+              <img src="assets/images/19.fw.png" class="img-fluid" alt="weapon-image">
+              <p class="title"> A new Weapon to fight cancer </p>
+              <p class="sub-title"> Jan 2017 </p>
+              <span class="label"> Case Stories </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
