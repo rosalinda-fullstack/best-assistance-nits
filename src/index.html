@@ -75,23 +75,24 @@
       </div>
     </nav>
   </header> 
-
   <main class="home">
     <div class="section-banner">
       <div class="container custom-container">
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <p class="banner-title"> YOUR LOCAL <br/> & REGIONAL MEDICAL CLAIM MANAGER </p>
+        <div class="swiperBanner">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <p class="banner-title"> YOUR LOCAL <br/> & REGIONAL MEDICAL CLAIM MANAGER </p>
+              </div>
+              <div class="swiper-slide"> 
+                <p class="banner-title"> YOUR LOCAL & REGIONAL MEDICAL CLAIM MANAGER </p>
+              </div>
+              <div class="swiper-slide"> 
+                <p class="banner-title"> YOUR LOCAL & REGIONAL MEDICAL CLAIM MANAGER </p>
+              </div>
             </div>
-            <div class="swiper-slide"> 
-              <p class="banner-title"> YOUR LOCAL & REGIONAL MEDICAL CLAIM MANAGER </p>
-            </div>
-            <div class="swiper-slide"> 
-              <p class="banner-title"> YOUR LOCAL & REGIONAL MEDICAL CLAIM MANAGER </p>
-            </div>
+          <div class="swiper-pagination"></div>
           </div>
-        <div class="swiper-pagination"></div>
         </div>
         <div class="three-info-content">
           <div class="mission-info">
@@ -151,10 +152,10 @@
                 <p class="mission-heading"> Full Transparency </p>
               </div>
               <div class="icon-buttons">
-                <button class="btn-best-assistance" type="button" href="#">
+                <button class="btn-best-assistance" type="button">
                   <p class="button-heading"> Why Best Assistance </p>
                 </button>
-                <button class="btn-history" type="button" href="#">
+                <button class="btn-history" type="button">
                   <p class="button-heading"> Our History </p>
                 </button>
               </div>
@@ -207,41 +208,69 @@
               <p class="filter-by"> Filter by </p><i class="fa fa-angle-down"></i>
             </button>
             <ul class="filter-dropdown">
-              <li><a href="#dropdown-item" id="dropdown-heading"> News </a></li>
+              <li><a href="#dropdown-item" id="dropdown-heading">News</a></li>
               <li><a href="#dropdown-item" id="dropdown-heading"> Healthy Tips </a></li>
               <li><a href="#dropdown-item" id="dropdown-heading"> Success Stories </a></li>
               <li><a href="#dropdown-item" id="dropdown-heading"> Case Stories </a>
             </ul>
           </div>
         </div>
-        <div class="swiper-container swiper-reading">
-          <div class="swiper-wrapper">
-            <div id="dropdown-item" class="swiper-slide">
-              <img src="assets/images/16.fw.png" class="img-fluid" alt="weapon-image">
-              <div class="text-holder">
+        <div class="swiperReading">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div id="news" class="swiper-slide"> 
+                  <p class="title"> A new Weapon to fight cancer </p>
+                  <p class="sub-title"> Jan 2017 </p>
+                  <span class="label"> News </span>
+              </div>
+              <div id="healthyTips" class="swiper-slide">
+                <p class="title"> Ten Ways modern life is making you sick </p>
+                <p class="sub-title"> Jan 2017 </p>
+                <span class="label"> Healthy Tips </span>
+              </div>
+              <div id="successStories" class="swiper-slide">
+                <p class="title"> Take care of your Skin </p>
+                <p class="sub-title"> Jan 2017 </p>
+                <span class="label"> Success Stories </span>
+              </div>
+              <div id="caseStories" class="swiper-slide">
                 <p class="title"> A new Weapon to fight cancer </p>
                 <p class="sub-title"> Jan 2017 </p>
-                <span class="label"> News </span>
+                <span class="label"> Case Stories </span>
               </div>
             </div>
-            <div id="dropdown-item" class="swiper-slide">
-              <img src="assets/images/17.fw.png" class="img-fluid" alt="weapon-image">
-              <p class="title"> Ten Ways modern life is making you sick </p>
-              <p class="sub-title"> Jan 2017 </p>
-              <span class="label"> Healthy Tips </span>
+          </div>
+        </div>
+        <button class="btn-journal" type="button">
+          <p class="btn-text">My Journal</p>
+        </button>
+      </div>
+    </div>
+    <div class="section-system-platform">
+      <div class="container custom-container">
+        <div class="flex-content">
+          <img id="monitor" src="assets/images/22.fw.png">
+          <div class="info-holder">
+            <h1 class="title">Information System Platform</h1>
+            <p class="heading">HIMS&#174; </p>
+            <p class="description">Designed and developed by Best Assistance SAL, is a fully integrated healthcare information systems suite. HIMS &#174; is versatile, 100% web-enabled platform and user-friendly, available fffor implementation in any country.</p>
+            <div class="content-holder">
+              <div class="check-icon-heading">
+                <img class="check-icon" src="assets/images/8.5.fw.png">
+                <p class="icon-heading">Superior performance monitoring</p>
+              </div>
+              <div class="check-icon-heading">
+                <img class="check-icon" src="assets/images/8.5.fw.png">
+                <p class="icon-heading">Timely business reporting without IT involvement</p>
+              </div>
+              <div class="check-icon-heading">
+                <img class="check-icon" src="assets/images/8.5.fw.png">
+                <p class="icon-heading">Tailored to Customer's needs and available data.</p>
+              </div>
             </div>
-            <div id="dropdown-item" class="swiper-slide">
-              <img src="assets/images/18.fw.png" class="img-fluid" alt="weapon-image">
-              <p class="title"> Take care of you Skin </p>
-              <p class="sub-title"> Jan 2017 </p>
-              <span class="label"> Success Stories </span>
-            </div>
-            <div id="dropdown-item" class="swiper-slide">
-              <img src="assets/images/19.fw.png" class="img-fluid" alt="weapon-image">
-              <p class="title"> A new Weapon to fight cancer </p>
-              <p class="sub-title"> Jan 2017 </p>
-              <span class="label"> Case Stories </span>
-            </div>
+            <button class="btn-solutions" type="button">
+              <p class="btn-text">Our Solutions</p>
+            </button>
           </div>
         </div>
       </div>
