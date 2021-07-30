@@ -675,6 +675,7 @@ html {
       position: relative;
       bottom: 24px;
 
+      display: none;
       padding: 20px;
 
       list-style: none;
@@ -692,49 +693,199 @@ html {
     }
 
     .swiper-container {
-      overflow: visible;
-      list-style: none;
+      margin-top: 22px;
     }
 
     .swiper-slide {
-      flex-shrink: 1;
-    }
-
-    .img-fluid {
-      max-width: 747px;
-      height: auto;
-    }
-
-    .title {
-      font-family: $font-opensans-bold;
-      font-size: 26px;
-    }
-
-    .sub-title {
-      font-family: $font-opensans-regular;
-      font-size: 14px;
-    }
-
-    span.label {
-      padding: 5px;
-      font-family: $font-opensans-bold;
-      font-size: 14px;
-
       &:first-child {
-        background-color: $orange;
+        width: 50%;
+        height: 500px;
+
+        background-image: url("/assets/images/16.fw.png");
+        background-repeat: no-repeat;
       }
 
       &:nth-child(2) {
-        background-color: $apple-green;
+        width: 24.5%;
+        height: 500px;
+
+        background-image: url("/assets/images/17.fw.png");
+        background-repeat: no-repeat;
       }
 
       &:nth-child(3) {
-        background-color: $light-blue;
+        width: 24.5%;
+        height: 500px;
+
+        background-image: url("/assets/images/18.fw.png");
+        background-repeat: no-repeat;
       }
 
       &:last-child {
-        background-color: $light-brown;
+        width: 24.5%;
+        height: 500px;
+
+        background-image: url("/assets/images/19.fw.png");
+        background-repeat: no-repeat;
       }
+      .title {
+        font-family: $font-opensans-bold;
+        font-size: 27px;
+        color: $white;
+
+        &:first-child {
+          margin-top: 377px;
+          margin-left: 39px;
+        }
+
+        &:nth-child(2) {
+          margin-top: 377px;
+          margin-left: 39px;
+        }
+
+        &:nth-child(3) {
+          margin-top: 377px;
+          margin-left: 39px;
+        }
+
+        &:last-child {
+          margin-top: 377px;
+          margin-left: 39px;
+        }
+      }
+  
+      .sub-title {
+        margin-left: 39px;
+
+        font-family: $font-opensans-regular;
+        font-size: 14px;
+        color: $white;
+      }
+  
+      span.label {
+        padding: 5px;
+        font-family: $font-opensans-bold;
+        font-size: 14px;
+        color: $white;
+
+        &:first-child {
+          margin-left: 44px;
+
+          background-color: $orange;
+        }
+  
+        &:nth-child(2) {
+          margin-left: 44px;
+
+          background-color: $apple-green;
+        }
+  
+        &:nth-child(3) {
+          margin-left: 44px;
+
+          background-color: $light-blue;
+        }
+  
+        &:last-child {
+          margin-left: 44px;
+          
+          background-color: $light-brown;
+        }
+      }
+    }
+
+    .btn-journal {
+      margin: 83px 2px;
+
+      background-color: $blue;
+      border: none;
+      border-radius: 28px;
+    }
+
+    .btn-text {
+      padding: 17px 51px 0;
+
+      font-family: $font-opensans-bold;
+      font-size: 16px;
+    }
+  }
+
+  .section-system-platform {
+    background-image: url("/assets/images/21.fw.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: inherit;
+
+    .flex-content {
+      display: flex;
+      flex-direction: row;
+      padding-top: 206px;
+      padding-left: 22px;
+    }
+
+    #monitor {
+      padding-top: 10px;
+    }
+
+    .info-holder {
+      padding-left: 133px;
+    }
+
+    .title {
+      margin-bottom: 0;
+
+      font-family: $font-opensans-bold;
+      font-size: 40px;
+    }
+
+    .heading {
+      font-family: $font-opensans-bold;
+      font-size: 40px;
+      color: $dark-blue;
+    }
+
+    .description {
+      padding: 20px 0 36px;
+      width: 92%;
+
+      font-size: 16px;
+      font-family: $font-opensans-semibold;
+      letter-spacing: 0.1px;
+      line-height: 1.8;
+    }
+
+    .content-holder {
+      padding-bottom: 41px;
+    }
+
+    .check-icon-heading {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .check-icon {
+      width: 28px;
+      height: 28px;
+    }
+
+    .icon-heading {
+      padding-left: 10px;
+      font-family: $font-opensans-semibold;
+      font-size: 19px;
+    }
+
+    .btn-solutions {
+      padding: 21px 56px 0;
+
+      background-color: $blue;
+      border: none;
+      border-radius: 28px;
+    }
+
+    .btn-text {
+      font-family: $font-opensans-regular;
+      font-size: 14px;
+      color: $white;
     }
   }
 

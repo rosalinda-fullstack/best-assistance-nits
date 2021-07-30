@@ -14,15 +14,16 @@ AppName.Modules.ThemeModule = (function () {
       },
     });
   };
+
   const _swiperReading = () => {
     // private stuff
 
-    const swiperReading = new Swiper('.swiper-reading', {
-      slidesPerView: 1,
+    const swiperReading = new Swiper('.swiperReading .swiper-container', {
+      slidesPerView: 4,
       spaceBetween: 0,
       pagination: {
         el: '.swiper-pagination',
-        clickable: true
+        clickable: true,
       },
     });
   };
