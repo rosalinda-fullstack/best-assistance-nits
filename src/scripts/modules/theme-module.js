@@ -6,8 +6,6 @@ AppName.Modules.ThemeModule = (function () {
   // Private Methods //
   ////////////////////
 
-<<<<<<< HEAD
-
 const _headerScroll = () => {
 $(document).ready(function() {
   $(window).scroll(function() {
@@ -20,22 +18,25 @@ $(document).ready(function() {
     });
   });
 }
-=======
+
     const swiperBanner = new Swiper('.swiper-container', {
+
+    const swiperBanner = new Swiper('.swiperBanner .swiper-container', {
       pagination: {
         el: '.swiper-pagination',
       },
     });
   };
+
   const _swiperReading = () => {
     // private stuff
 
-    const swiperReading = new Swiper('.swiper-reading', {
-      slidesPerView: 1,
+    const swiperReading = new Swiper('.swiperReading .swiper-container', {
+      slidesPerView: 4,
       spaceBetween: 0,
       pagination: {
         el: '.swiper-pagination',
-        clickable: true
+        clickable: true,
       },
     });
   };
@@ -52,19 +53,12 @@ $(document).ready(function() {
       });
     })
   }
->>>>>>> 4baf959 (section reading)
 
   /////////////////////
   // Public Methods //
   ///////////////////
   const init = function () {
-<<<<<<< HEAD
     _headerScroll();
-=======
-    _privateMethod();
-    _swiperReading();
-    _filter();
->>>>>>> 4baf959 (section reading)
   };
 
   return {
