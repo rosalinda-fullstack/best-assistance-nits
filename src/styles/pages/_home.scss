@@ -368,6 +368,8 @@ html {
   }
 
   .section-reading {
+    margin-bottom: 69px;
+
     .title-button-holder {
       display: flex;
       flex-direction: row;
@@ -697,12 +699,25 @@ html {
     }
 
     .swiper-slide {
+      // &:hover {
+      //   .title {
+
+      //   }
+      // }
+
       &:first-child {
         width: 50%;
         height: 500px;
 
         background-image: url("/assets/images/16.fw.png");
         background-repeat: no-repeat;
+
+        &:hover {
+          width: 70%;
+
+          transform: scale(1.2);
+          transition: 0.3s ease-in-out;
+        }
       }
 
       &:nth-child(2) {
@@ -728,6 +743,7 @@ html {
         background-image: url("/assets/images/19.fw.png");
         background-repeat: no-repeat;
       }
+
       .title {
         font-family: $font-opensans-bold;
         font-size: 27px;
@@ -811,15 +827,29 @@ html {
   }
 
   .section-system-platform {
-    background-image: url("/assets/images/21.fw.png");
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: inherit;
+    background-color:$grey;
+
+    // .flex-platform {
+    //   position: relative;
+    //   bottom: 70px;
+    // }
+
+    .leaf-background {
+      position: relative;
+      bottom: 67px;
+      right: 23px;
+    }
+
+    .plain-leaf-background {
+      display: flex;
+      justify-content: flex-end;
+     
+      z-index: 999;
+    }
 
     .flex-content {
       display: flex;
       flex-direction: row;
-      padding-top: 206px;
       padding-left: 22px;
     }
 
@@ -828,7 +858,7 @@ html {
     }
 
     .info-holder {
-      padding-left: 133px;
+      padding-left: 131px;
     }
 
     .title {
@@ -839,23 +869,28 @@ html {
     }
 
     .heading {
+      position: relative;
+      bottom: 7px;
+
+      margin-bottom: 6px;
+
       font-family: $font-opensans-bold;
-      font-size: 40px;
+      font-size: 43px;
       color: $dark-blue;
     }
 
     .description {
-      padding: 20px 0 36px;
+      padding: 20px 0 34px;
       width: 92%;
 
       font-size: 16px;
       font-family: $font-opensans-semibold;
       letter-spacing: 0.1px;
-      line-height: 1.8;
+      line-height: 1.87;
     }
 
     .content-holder {
-      padding-bottom: 41px;
+      padding-bottom: 33px;
     }
 
     .check-icon-heading {
@@ -864,18 +899,23 @@ html {
     }
 
     .check-icon {
-      width: 28px;
-      height: 28px;
+      width: 29px;
+      height: 29px;
     }
 
     .icon-heading {
-      padding-left: 10px;
+      padding-left: 18px;
+      margin-top: 2px;
+      margin-bottom: 20px;
+      
       font-family: $font-opensans-semibold;
-      font-size: 19px;
+      font-size: 18px;
+      letter-spacing: 0.3px;
     }
 
     .btn-solutions {
-      padding: 21px 56px 0;
+      padding: 18px 53px 2px 52px;
+      margin-left: 5px;
 
       background-color: $blue;
       border: none;
@@ -884,8 +924,82 @@ html {
 
     .btn-text {
       font-family: $font-opensans-regular;
+      font-size: 15px;
+      color: $white;
+    }
+  }
+
+  .section-assistance-app {
+    background-image: url("/assets/images/26.fw.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .title {
+      font-family: $font-opensans-bold;
+      font-size: 41px;
+      color: $white;
+    }
+
+    .description {
+      font-family: $font-opensans-regular;
+      font-size: 17px;
+      color: $white;
+    }
+
+    .content-holder {
+      display: flex;
+      flex-direction: row;
+
+      align-items: center;
+    }
+
+    .three-content-holder {
+      display: flex;
+      flex-direction: row;
+      padding: 12px 0 46px;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      width: 33%;
+
+      border-top: 1px solid $light-grey;
+
+      &:first-child {
+        border-right: 1px solid $light-grey;
+      }
+
+      &:last-child {
+        border-left: 1px solid $light-grey;
+      }
+    }
+
+    .image-holder {
+      width: 13%;
+    }
+
+    .heading {
+      padding: 38px 5px 0;
+      
+      font-family: $font-opensans-regular;
       font-size: 14px;
       color: $white;
+    }
+
+    #contact-number {
+      font-family: $font-opensans-bold;
+      font-size: 37px;
+      color: $white;
+
+      list-style: none;
+    }
+
+    .link {
+      font-family: $font-opensans-semibold;
+      font-size: 14px;
+      color: $white;
+      list-style: none;
     }
   }
 
