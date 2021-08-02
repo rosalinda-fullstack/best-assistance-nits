@@ -32,7 +32,7 @@ $(document).ready(function() {
     // private stuff
 
     const swiperReading = new Swiper('.swiperReading .swiper-container', {
-      slidesPerView: 4,
+      slidesPerView: 'auto',
       spaceBetween: 0,
       pagination: {
         el: '.swiper-pagination',
