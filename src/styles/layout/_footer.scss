@@ -7,169 +7,28 @@
     background-color: $light-grey;
     
     .flex-content {
-        padding: 35px 4px 29px;
+        padding: 31px 0 31px;
         
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-
     }
-    
+
     .list {
         display: flex;
         flex-direction: row;
-        margin-top: 16px;
     }
-    
+
     .heading {
         margin-right: 45px;
-        
+
         font-family: $font-opensans-regular;
         font-size: 14px;
         color: $text-color;
-        
+
         &:hover {
-            text-decoration: none;
-        }
-    }
-
-    .icons {
-        display: flex;
-        flex-direction: row;
-
-        .grey-icons {
-            margin-right: 10px;
-        }
-
-        .uncolored-links {
-            padding-left: 3px;
-            text-decoration: none;
-        }
-        
-        .colored-links {
-            padding-left: 13px;
-            text-decoration: none;
-        }
-    }
-}
-
-@include respond-to (xs) {
-    .section-footer {
-        position: relative;
-        bottom: 52px;
-
-        background-color: transparent;
-
-        .flex-content {
-            padding: 0;
-        }
-
-        .heading {
-            color: $white;
-        }
-        
-        #careers,
-        #policy {
-            display: none;
-        }
-    
-        .icons {
-            display: none;
-        }
-    }
-}
-    
-@include respond-to (sm) {
-    .section-footer {
-        position: relative;
-        bottom: 47px;
-
-        background-color: transparent;
-
-        .flex-content {
-            padding: 0 9px 11px;
-        }
-
-        .heading {
-            margin: 0;
-
-            font-size: 13px;
-            color: $white;
-        }
-
-        #careers,
-        #policy {
-            display: none;
-        }
-    
-        .icons {
-            display: none;
-        }
-    }
-}
-    
-@include respond-to (md) {
-    .section-footer {
-        position: relative;
-        bottom: 69px;
-
-        background-color: transparent;
-
-        .flex-content {
-            padding: 0 9px 0;
-        }
-
-        .heading {
-            margin: 0;
-
-            font-size: 13px;
-            color: $white;
-        }
-
-        #careers,
-        #policy {
-            display: none;
-        }
-    
-        .icons {
-            display: none;
-        }
-    }
-}
-
-@include respond-to (lg) {
-    .section-footer {    
-        .flex-content {
-            padding: 8px 4px 8px;
-        }
-        
-        .heading {
-            margin-right: 20px;
-            
-            font-size: 12px;
-
-            &:hover {
-                text-decoration: none;
-            }
-        }
-    }
-}
-
-@media screen and (min-width: 2000px) {
-    .section-footer {
-
-        .flex-content {
-            padding: 35px 4px 28px;
-        }
-
-        .list {
-            margin-top: 12px;
-            margin-left: 6px;
-        }
-        
-        .heading {
-            margin-right: 44px;
+            list-style: none;
         }
     }
 }
