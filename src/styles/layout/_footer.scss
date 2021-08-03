@@ -3,3 +3,32 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+.section-footer {
+    background-color: $light-grey;
+    
+    .flex-content {
+        padding: 31px 0 31px;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .heading {
+        margin-right: 45px;
+
+        font-family: $font-opensans-regular;
+        font-size: 14px;
+        color: $text-color;
+
+        &:hover {
+            list-style: none;
+        }
+    }
+}
