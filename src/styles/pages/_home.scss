@@ -12,7 +12,7 @@ html {
   transition: all .2s ease-in-out;
   
   .section-banner {
-    padding: 217px 0 121px;
+    padding: 100px 0 121px;
 
     background-image: url("../assets/images/3.fw.png");
     background-repeat: no-repeat;
@@ -84,7 +84,11 @@ html {
           font-family: $font-opensans-bold;
           font-size: 15px;
           color: $white;
+<<<<<<< HEAD
           text-align: center; 
+=======
+          text-align: center;
+>>>>>>> ba85dda (desktop layout done)
         }
       }
 
@@ -122,7 +126,11 @@ html {
           font-family: $font-opensans-bold;
           font-size: 15px;
           color: $white;
+<<<<<<< HEAD
           text-align: center;
+=======
+          text-align: end;
+>>>>>>> ba85dda (desktop layout done)
         }
       }
     }
@@ -169,6 +177,7 @@ html {
       justify-content: space-evenly;
     }
 
+<<<<<<< HEAD
     .mission-content {
       display: flex;
       flex-direction: row;
@@ -182,11 +191,22 @@ html {
       margin-top: 77px;
       width: 40.5%;
       height: 49%;
+=======
+    .image {
+      position: relative;
+      right: 15px;
+
+      padding-top: 78px;
+>>>>>>> ba85dda (desktop layout done)
     }
     
     .information {
       padding-top: 65px;
+<<<<<<< HEAD
       margin-left: 18px;
+=======
+      padding-left: 21px;
+>>>>>>> ba85dda (desktop layout done)
     }
     
     .mission-title {
@@ -202,9 +222,15 @@ html {
     }
 
     .check-icon {
+<<<<<<< HEAD
       margin-top: 3px;
       margin-left: 14px;
       width: 5%;
+=======
+      margin-left: 11px;
+      margin-top: 3px;
+      width: 6%;
+>>>>>>> ba85dda (desktop layout done)
       height: 1%;
     }
 
@@ -217,6 +243,7 @@ html {
     }
 
     .icon-buttons {
+<<<<<<< HEAD
       display: flex;
       margin: 53px 0 0;
       width: 411px;
@@ -226,6 +253,14 @@ html {
       padding: 0;
       margin-top: 2px;
       width: 61%;
+=======
+      margin: 55px 2px;
+    }
+
+    .btn-best-assistance {
+      padding: 19px 28px 3px;
+      margin-right: 4px;
+>>>>>>> ba85dda (desktop layout done)
 
       background-color: $light-blue;
       border: none;
@@ -261,12 +296,18 @@ html {
     } 
     
     .btn-history {
+<<<<<<< HEAD
       padding: 0;
       margin-top: 2px;
       margin-left: 10px;
       width: 63%;
 
       background-color: $pale-orange;
+=======
+      padding: 19px 58px 3px;
+      
+      background-color: $blue;
+>>>>>>> ba85dda (desktop layout done)
       border: none;
       border-radius: 28px;
       border: 2px solid transparent;  
@@ -341,10 +382,15 @@ html {
           color: $white;
         }
 
-      font-family: $font-opensans-bold;
-      font-size: 18px;
-      color: $white;
-    }
+        .description {
+          margin-bottom: 30px;
+    
+          font-family: $font-opensans-regular;
+          font-size: 16px;
+          color: $white;
+          letter-spacing: 0.4px;
+        }
+      }
 
       &:nth-child(2) {
         .profile-icon {
@@ -361,14 +407,76 @@ html {
           color: $white;
         }
 
-      font-family: $font-opensans-regular;
-      font-size: 17px;
-      color: $white;
+        .description {
+          margin: 2px 5px 0;
+    
+          font-family: $font-opensans-regular;
+          font-size: 16px;
+          color: $white;
+          letter-spacing: 0.2px;
+        }
+      }
+
+      &:nth-child(3) {
+        .profile-icon {
+          margin: 32px 2px;
+          width: 8%;
+          height: 1%;
+        }
+
+        .solution-heading {
+          margin: 21px 1px 4px;
+
+          font-family: $font-opensans-bold;
+          font-size: 18px;
+          color: $white;
+        }
+
+        .description {
+          margin-bottom: 26px;
+    
+          font-family: $font-opensans-regular;
+          font-size: 16px;
+          color: $white;
+          letter-spacing: 0.4px;
+        }
+      }
+
+      &:last-child {
+        .profile-icon {
+          margin: 9px 6px;
+          width: 7%;
+          height: 1%;
+        }
+
+        .solution-heading {
+          margin-bottom: 6px;
+    
+          font-family: $font-opensans-bold;
+          font-size: 18px;
+          color: $white;
+        }
+
+        .description {
+          margin-bottom: 27px;
+    
+          font-family: $font-opensans-regular;
+          font-size: 16px;
+          color: $white;
+          letter-spacing: 0.4px;
+        }
+      }
+    }
+
+    .description-holder {
+      display: flex;
+      flex-direction: column;
+      padding: 0 26px;
     }
   }
 
   .section-reading {
-    margin-bottom: 69px;
+    margin-bottom: 151px;
 
     .title-button-holder {
       display: flex;
@@ -452,6 +560,7 @@ html {
     }
 
     .swiper-slide {
+<<<<<<< HEAD
       padding-top: 23.6%;
 
       .title {
@@ -473,6 +582,10 @@ html {
 
       &:first-child {
         width: 49.8%;
+=======
+      &:first-child {
+        width: 50%;
+>>>>>>> ba85dda (desktop layout done)
         height: 513px;
 
         background-image: url("../assets/images/16.fw.png");
@@ -511,11 +624,23 @@ html {
 
         background-image: url("../assets/images/17.fw.png");
         background-repeat: no-repeat;
+<<<<<<< HEAD
+=======
+
+        &:hover {
+          width: 50%;
+
+          transform: scale(1.2);
+          transition: 0.3s ease-in-out;
+        }
+      }
+>>>>>>> ba85dda (desktop layout done)
 
         .title {
           margin-left: 8%;
           width: 83%;
 
+<<<<<<< HEAD
           font-size: 28px;
           line-height: 1.3;
           word-spacing: 2.1px;
@@ -535,6 +660,16 @@ html {
           font-size: 14px;
 
           background-color: $apple-green;
+=======
+        background-image: url("/assets/images/18.fw.png");
+        background-repeat: no-repeat;
+
+        &:hover {
+          width: 50%;
+
+          transform: scale(1.2);
+          transition: 0.3s ease-in-out;
+>>>>>>> ba85dda (desktop layout done)
         }
       }
 
@@ -544,6 +679,17 @@ html {
 
         background-image: url("../assets/images/18.fw.png");
         background-repeat: no-repeat;
+<<<<<<< HEAD
+=======
+
+        &:hover {
+          width: 50%;
+
+          transform: scale(1.2);
+          transition: 0.3s ease-in-out;
+        }
+      }
+>>>>>>> ba85dda (desktop layout done)
 
         .title {
           margin-bottom: 12px;
@@ -811,7 +957,7 @@ html {
     }
 
     .btn-journal {
-      margin: 83px 2px;
+      margin: 70px 2px 2px;
 
       background-color: $blue;
       border: none;
@@ -819,10 +965,11 @@ html {
     }
 
     .btn-text {
-      padding: 17px 51px 0;
+      padding: 17px 56px 0;
 
-      font-family: $font-opensans-bold;
-      font-size: 16px;
+      font-family: $font-opensans-semibold;
+      font-size: 15px;
+      color: $white;
     }
   }
 
@@ -944,6 +1091,7 @@ html {
       display: flex;
       flex-direction: row;
       align-items: center;
+      margin-bottom: 118px;
       height: 327px;
     }
 
@@ -978,27 +1126,35 @@ html {
       margin-right: 14px;
     }
     
+    #border {
+      margin-bottom: 0;
+
+      background-color: $white;
+    }
+
     .flex-content {
       display: flex;
-      padding-left: 199px;
+      justify-content: space-between;
     }
 
     .image-info-holder {
-      padding-top: 50px;
-      margin-top: 116px;
-      width: 29%;
-      height: 300px;
+      width: 31%;
+      height: 265px;
       
       align-items: center;
       
       &:first-child {
-        border-top: 0.5px solid $grey;
+        padding-top: 48px;
+
         border-right: 0.5px solid $grey;
+        .image {
+          width: 13.5%;
+        }
 
         .heading {
-          padding: 33px 0 0 4px;
+          padding: 33px 3px 0;
           margin-bottom: 24px;
-          width: 91%;
+          width: 92%;
     
           font-family: $font-opensans-regular;
           font-size: 14px;
@@ -1007,18 +1163,22 @@ html {
           line-height: 1.9;
         }
 
-        .image {
-          width: 13%;
+        .link {
+          font-size: 15px;
+          text-decoration: underline;
         }
       }
 
       &:nth-child(2) {
-        border-top: 0.5px solid $grey;
-        border-right: 0.5px solid $grey;
+        padding-top: 44px;
+        
+        .image {
+          margin: 0 22px;
+          width: 13.5%;
+        }
 
         .heading {
-          padding: 33px 0 0 4px;
-          margin-bottom: 24px;
+          margin: 17px 21px 24px;
           width: 91%;
           
           font-family: $font-opensans-regular;
@@ -1028,53 +1188,52 @@ html {
           line-height: 1.9;
         }
 
-        .image {
-          width: 13%;
+        .link {
+          margin: 0 22px 0;
+
+          font-size: 15px;
+          text-decoration: underline;
         }
       }
 
       &:last-child {
-        border-top: 0.5px solid $grey;
+        padding-top: 42px;
+
+        border-left: 0.5px solid $grey;
+
+        .image {
+          margin: 0 74px 0;
+          width: 11%;
+        }
 
         #contact-number {
-          padding: 33px 0 0 4px;
-          margin-bottom: 24px;
+          display: flex;
+          flex-direction: column;
+          margin: 29px 71px 14px;
           width: 91%;
     
           font-family: $font-opensans-bold;
-          font-size: 40px;
+          font-size: 34px;
           color: $white;
-          letter-spacing: 0.4px;
+          letter-spacing: 0.5px;
           line-height: 1.9;
-
-          display: flex;
-          flex-direction: column;
         }
 
-        .image {
-          width: 11%;
+        .link {
+          margin: 0 76px 0;
+
+          font-size: 15px;
+          text-decoration: underline;
         }
-      }
-    }
-
-    #contact-number {
-      padding: 5px 0 0 4px;
-      font-family: $font-opensans-bold;
-      font-size: 37px;
-      color: $white;
-
-      &:hover {
-        list-style: none;
       }
     }
 
     .link {
       font-family: $font-opensans-semibold;
-      font-size: 14px;
       color: $white;
-      list-style: none;
     }
   }
+<<<<<<< HEAD
 
   .section-system-platform {
     background-color:$grey;
@@ -5062,4 +5221,6 @@ html {
       }
     }
   }
+=======
+>>>>>>> ba85dda (desktop layout done)
 }
