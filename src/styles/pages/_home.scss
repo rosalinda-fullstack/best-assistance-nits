@@ -435,7 +435,7 @@ html {
   }
 
   .section-reading {
-    margin-bottom: 69px;
+    margin-bottom: 151px;
 
     .title-button-holder {
       display: flex;
@@ -864,7 +864,7 @@ html {
     }
 
     .btn-journal {
-      margin: 83px 2px;
+      margin: 70px 2px 2px;
 
       background-color: $blue;
       border: none;
@@ -872,10 +872,11 @@ html {
     }
 
     .btn-text {
-      padding: 17px 51px 0;
+      padding: 17px 56px 0;
 
-      font-family: $font-opensans-bold;
-      font-size: 16px;
+      font-family: $font-opensans-semibold;
+      font-size: 15px;
+      color: $white;
     }
   }
 
@@ -997,6 +998,7 @@ html {
       display: flex;
       flex-direction: row;
       align-items: center;
+      margin-bottom: 118px;
       height: 327px;
     }
 
@@ -1031,27 +1033,35 @@ html {
       margin-right: 14px;
     }
     
+    #border {
+      margin-bottom: 0;
+
+      background-color: $white;
+    }
+
     .flex-content {
       display: flex;
-      padding-left: 199px;
+      justify-content: space-between;
     }
 
     .image-info-holder {
-      padding-top: 50px;
-      margin-top: 116px;
-      width: 29%;
-      height: 300px;
+      width: 31%;
+      height: 265px;
       
       align-items: center;
       
       &:first-child {
-        border-top: 0.5px solid $grey;
+        padding-top: 48px;
+
         border-right: 0.5px solid $grey;
+        .image {
+          width: 13.5%;
+        }
 
         .heading {
-          padding: 33px 0 0 4px;
+          padding: 33px 3px 0;
           margin-bottom: 24px;
-          width: 91%;
+          width: 92%;
     
           font-family: $font-opensans-regular;
           font-size: 14px;
@@ -1060,18 +1070,22 @@ html {
           line-height: 1.9;
         }
 
-        .image {
-          width: 13%;
+        .link {
+          font-size: 15px;
+          text-decoration: underline;
         }
       }
 
       &:nth-child(2) {
-        border-top: 0.5px solid $grey;
-        border-right: 0.5px solid $grey;
+        padding-top: 44px;
+        
+        .image {
+          margin: 0 22px;
+          width: 13.5%;
+        }
 
         .heading {
-          padding: 33px 0 0 4px;
-          margin-bottom: 24px;
+          margin: 17px 21px 24px;
           width: 91%;
           
           font-family: $font-opensans-regular;
@@ -1081,51 +1095,49 @@ html {
           line-height: 1.9;
         }
 
-        .image {
-          width: 13%;
+        .link {
+          margin: 0 22px 0;
+
+          font-size: 15px;
+          text-decoration: underline;
         }
       }
 
       &:last-child {
-        border-top: 0.5px solid $grey;
+        padding-top: 42px;
+
+        border-left: 0.5px solid $grey;
+
+        .image {
+          margin: 0 74px 0;
+          width: 11%;
+        }
 
         #contact-number {
-          padding: 33px 0 0 4px;
-          margin-bottom: 24px;
+          display: flex;
+          flex-direction: column;
+          margin: 29px 71px 14px;
           width: 91%;
     
           font-family: $font-opensans-bold;
-          font-size: 40px;
+          font-size: 34px;
           color: $white;
-          letter-spacing: 0.4px;
+          letter-spacing: 0.5px;
           line-height: 1.9;
-
-          display: flex;
-          flex-direction: column;
         }
 
-        .image {
-          width: 11%;
+        .link {
+          margin: 0 76px 0;
+
+          font-size: 15px;
+          text-decoration: underline;
         }
-      }
-    }
-
-    #contact-number {
-      padding: 5px 0 0 4px;
-      font-family: $font-opensans-bold;
-      font-size: 37px;
-      color: $white;
-
-      &:hover {
-        list-style: none;
       }
     }
 
     .link {
       font-family: $font-opensans-semibold;
-      font-size: 14px;
       color: $white;
-      list-style: none;
     }
   }
 
