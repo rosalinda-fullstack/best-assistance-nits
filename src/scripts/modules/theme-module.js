@@ -29,7 +29,7 @@ AppName.Modules.ThemeModule = (function () {
   };
 
   const _filter = () => {
-    $(document).ready(function(){
+    $(document).ready(function() {
       $('.fa-angle-down').click(function() {
       $('.filter-dropdown').toggle();
       })
@@ -41,6 +41,23 @@ AppName.Modules.ThemeModule = (function () {
     })
   }
 
+  const _headerScroll = () => {
+    $(document).ready(function() {
+      $('a[href*="#"]').on('click', function(e){
+        $('html,body').animate({
+          scrollTop: $($(this).attr('href')).offset().top - 100
+        },500);
+        e.preventDefault();
+      });
+    })
+    // $(document).ready(function() {
+
+    //   $('html,body').animate({
+    //     scrollTop:$($(this).attr(href)).offset().top - 100
+    //   },500);
+    //   e.preventDefault();
+    // });
+  }
   /////////////////////
   // Public Methods //
   ///////////////////
@@ -48,6 +65,7 @@ AppName.Modules.ThemeModule = (function () {
     _privateMethod();
     _swiperReading();
     _filter();
+    _headerScroll();
   };
 
   return {
