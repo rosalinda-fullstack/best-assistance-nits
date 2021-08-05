@@ -7,28 +7,50 @@
     background-color: $light-grey;
     
     .flex-content {
-        padding: 43px 4px 21px;
+        padding: 35px 4px 29px;
         
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-    }
 
+    }
+    
     .list {
         display: flex;
         flex-direction: row;
+        margin-top: 16px;
     }
-
+    
     .heading {
         margin-right: 45px;
-
+        
         font-family: $font-opensans-regular;
         font-size: 14px;
         color: $text-color;
-
+        
         &:hover {
-            list-style: none;
+            text-decoration: none;
+        }
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: row;
+
+
+        .grey-icons {
+            margin-right: 10px;
+        }
+
+        .uncolored-links {
+            padding-left: 3px;
+            text-decoration: none;
+        }
+        
+        .colored-links {
+            padding-left: 13px;
+            text-decoration: none;
         }
     }
 }

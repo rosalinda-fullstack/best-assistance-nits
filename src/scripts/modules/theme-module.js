@@ -29,7 +29,7 @@ AppName.Modules.ThemeModule = (function () {
   };
 
   const _filter = () => {
-    $(document).ready(function(){
+    $(document).ready(function() {
       $('.fa-angle-down').click(function() {
       $('.filter-dropdown').toggle();
       })

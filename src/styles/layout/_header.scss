@@ -9,21 +9,12 @@
     z-index: 999;
 
     width: 100%;
+    overflow: hidden;
 
-    background-color: transparent;
-
-    transition: 0.3s;
-
-    &.sticky {
-        background-color: $white;
-
-        transition: all 0.4s ease-in-out;
-    }
+    background-color: $white;
     
-    .show-tablet-buttons {
-        display: none;
-    }
-
+    transition: 0.2s;
+    
     .navbar {
         width: 100%;
         display: flex;
@@ -41,10 +32,12 @@
         margin-top: 30px;
         margin-left: 310px;
     }
-    
+
+    .nav-item {
+        margin-right: 30px;
+    }
+
     .nav-link {
-        padding-left: 26px;
-        
         font-family: $font-opensans-semibold;
         font-size: 14px;
         color: $black;
@@ -66,13 +59,9 @@
         outline: 0;
         
         &:hover {
-            color: $text-color;
             list-style: none;
+
             outline: none;
-           
-            background-color: $light-orange;
-            
-            border: 2px solid $orange;  
 
             transition: 0.3s ease-in-out;
         }
@@ -106,6 +95,9 @@
 
         appearance: none;
     
+        &:hover {
+            outline: none;
+        }
     }
 
 
@@ -115,105 +107,120 @@
     }
 
 }
-@media screen and (min-width: 2000px) {
+    
+@include responds-to (xs) {
     .section-header {
         position: fixed;
         z-index: 999;
     
-        width: 92%;
+        width: 100%;
+        overflow: hidden;
     
-        background-color: transparent;
+        background-color: $white;
+        
+        transition: 0.2s;
+        
+        .navbar-toggler {
+            margin-right: 950px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            flex-direction:row;
+            padding-bottom: 32px;
+        }
     
-        transition: 0.3s;
-    
-        &.sticky {
-            background-color: $white;
-    
-            transition: all 0.4s ease-in-out;
+        .logo {
+            margin-top: 14px;
         }
         
-        .show-tablet-buttons {
-            display: none;
+        #bestassistance-logo {
+            width: 60%;
         }
     
-        .navbar-brand {
-            padding-bottom: 22px;
-            padding-left: 13px;
+        #navbarSupportedContent {
+            margin-top: 30px;
+            margin-left: 310px;
         }
     
-        .navbar-nav {
-            padding: 42px 0 38px 228px;
+        .nav-item {
+            margin-right: 30px;
         }
     
+        .nav-link {
+            font-family: $font-opensans-semibold;
+            font-size: 14px;
+            color: $black;
+        }
+    
+        
         .btn-telephone-number {
-            margin: 37px 0 30px 25px;
-            width: 11%;
+            padding: 9px 23px 11px;
+            margin-top: 29px;
     
             background-color: $orange;
             border: none;
             border-radius: 28px;
-            border: 2px solid transparent;  
     
-            outline: 0;
-            
             &:hover {
-                color: $text-color;
                 list-style: none;
+    
                 outline: none;
-               
-                background-color: $light-orange;
-                
-                border: 2px solid $orange;  
     
                 transition: 0.3s ease-in-out;
             }
         }
     
         .telephone-icon {
-            width: 11%;
+            width: 13%;
         }
     
         #telephone-number {
             display: inline-block;
-            padding: 11px 0 10px;
+            padding-left: 2px;
     
-            font-size: 15px;
+            font-size: 13px;
             color: $white;
+            letter-spacing: 0.6px;
             text-decoration: none;
         }
     
         #language-option {
-            padding: 15px 23px 14px;
-            margin: 7px 0 0 4px;
+            padding: 16px 20px 16px;
+            margin: 28px 5px 0px;
             width: 5%;
     
             font-family: $font-opensans-regular;
-            font-size: 14px;
+            font-size: 12px;
             color: $white;
-            letter-spacing: 0.4px;
     
             background-color: $blue;
             border: none;
             border-radius: 24px;
     
-            outline: 0;
             appearance: none;
         
             &:hover {
-                border: none;
-    
                 outline: none;
             }
         }
     
         .fa-angle-down {
-            position: relative;
-            right: 24px;
-            top: 4px;
-    
-            font-size: 13px;
+            font-size: 14px;
             color: $white;
         }
-    
     }
 }
+
+// @include respond-to (sm) {
+
+// }
+
+// @include respond-to (md) {
+
+// }
+
+// @include respond-to (lg) {
+
+// }
