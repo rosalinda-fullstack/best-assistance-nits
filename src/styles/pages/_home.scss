@@ -1012,8 +1012,16 @@ html {
       background-size:  inherit;
 
       .swiper-container {
+<<<<<<< HEAD
         margin: 223px 0 0;
         width: 100%;
+=======
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+  
+        background:none;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
       }
      
       .swiper-slide {
@@ -1024,11 +1032,21 @@ html {
       }
   
       .banner-title {
+<<<<<<< HEAD
         padding-bottom: 5px;
 
         font-size: 23px;
         letter-spacing: 1px;
         line-height: 1.30;
+=======
+        padding-bottom: 10px;
+  
+        font-family: $font-opensans-bold;
+        font-size: 20px;
+        color: $white;
+        letter-spacing: 1.35px;
+        line-height: 1.25;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
       }
   
       .swiper-pagination {
@@ -1047,7 +1065,10 @@ html {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
+<<<<<<< HEAD
         margin-top: 21px;
+=======
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
         width: 100%;
       }
       
@@ -1056,10 +1077,16 @@ html {
         flex-direction: column;
   
         &:first-child {
+<<<<<<< HEAD
           margin: 40px 5px 0;
 
           .mission-icon {
             width: 85%;
+=======
+  
+          .mission-icon {
+            width: 75%;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
           }
   
           .mission-heading {
@@ -1071,11 +1098,19 @@ html {
         }
   
         &:nth-child(2) {
+<<<<<<< HEAD
           margin: 40px 0 0 20px;
           width: 132px;
   
           .mission-icon {
             width: 51%;
+=======
+          width: 132px;
+  
+          .mission-icon {
+            margin: 0 10px; 
+            width: 60%;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
           }
   
           .mission-heading {
@@ -1087,10 +1122,16 @@ html {
         }
   
         &:last-child {
+<<<<<<< HEAD
           margin: 40px 0 0 13px;
 
           .mission-icon {
             width: 92%;
+=======
+  
+          .mission-icon {
+            width: 30%;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
           }
   
           .mission-heading {
@@ -1125,24 +1166,35 @@ html {
         flex-direction: column;
       }
   
+<<<<<<< HEAD
       .mission-content {
         width: 100%;
         height: 357px;
       }
 
       .couple-icon {
+=======
+      .image {
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
         display: none;
       }
       
       .information {
         padding-top: 33px;
         padding-left: 0;
+<<<<<<< HEAD
         margin-left: 0;
+=======
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
       }
       
       .mission-title {
         margin: 0 0 19px;
   
+<<<<<<< HEAD
+=======
+        font-family: $font-opensans-bold;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
         font-size: 20px;
       }
   
@@ -1152,6 +1204,7 @@ html {
       }
   
       .check-icon {
+<<<<<<< HEAD
         margin-top: 2px;
         margin-left: 0;
         width: 7%;    
@@ -1167,6 +1220,26 @@ html {
       .icon-buttons {
         margin: 6px 0 0;
         width: 295px;
+=======
+        margin-top: 3px;
+        margin-left: 0;
+        width: 7%;
+        height: 1%;
+      }
+  
+      .mission-heading {
+        margin: 0 16px 15px;
+        
+        font-family: $font-opensans-semibold;
+        font-size: 14px;
+        letter-spacing: 0.2px;
+      }
+  
+      .icon-buttons {
+        margin: 0 2px;
+        display: flex;
+        flex-direction: row;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
       }
   
       .btn-best-assistance {
@@ -1200,16 +1273,26 @@ html {
   
       .solution-box {
         position: relative;
+<<<<<<< HEAD
         top: 0;
         right: 15px;
         bottom: 0;
 
         display: block;
         width: 320px;
+=======
+        top: 31px;
+        left: 0;
+
+        background-image: url("/assets/images/9.fw.png");
+        background-repeat: no-repeat;
+        background-size: cover; 
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
       } 
   
       .solution-title {
         margin: 0;
+<<<<<<< HEAD
         padding: 32px 14px 0;
 
         font-size: 20px;
@@ -1217,6 +1300,17 @@ html {
   
       .content-solution {
         padding: 27px 13px 43px;
+=======
+        padding-top: 33px;
+
+        font-family: $font-opensans-bold;
+        font-size: 20px;
+        color: $white;
+      }
+  
+      .content-solution {
+        padding: 27px 0
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
       }
   
       .paragraph-solution {
@@ -1232,13 +1326,25 @@ html {
           .solution-heading {
             margin-bottom: 4px;
       
+<<<<<<< HEAD
             font-size: 14px;
+=======
+            font-family: $font-opensans-bold;
+            font-size: 14px;
+            color: $white;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
           }
   
           .description {
             margin-bottom: 30px;
       
+<<<<<<< HEAD
             font-size: 14px;
+=======
+            font-family: $font-opensans-regular;
+            font-size: 14px;
+            color: $white;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
             letter-spacing: 0.4px;
           }
         }
@@ -1253,13 +1359,25 @@ html {
           .solution-heading {
             margin: 0 10px 4px;
       
+<<<<<<< HEAD
             font-size: 14px;
+=======
+            font-family: $font-opensans-bold;
+            font-size: 14px;
+            color: $white;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
           }
   
           .description {
             margin: 0 10px 0;
       
+<<<<<<< HEAD
             font-size: 14px;
+=======
+            font-family: $font-opensans-regular;
+            font-size: 14px;
+            color: $white;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
             letter-spacing: 0.2px;
           }
         }
@@ -1274,6 +1392,10 @@ html {
           .solution-heading {
             margin: 27px 3px 4px;
   
+<<<<<<< HEAD
+=======
+            font-family: $font-opensans-bold;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
             font-size: 14px;
             color: $white;
           }
@@ -1281,28 +1403,51 @@ html {
           .description {
             margin: 0 3px;
       
+<<<<<<< HEAD
             font-size: 13px;
+=======
+            font-family: $font-opensans-regular;
+            font-size: 13px;
+            color: $white;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
             letter-spacing: 0.7px;
           }
         }
   
         &:last-child {
           .profile-icon {
+<<<<<<< HEAD
             margin: 23px 4px;
             width: 11%;
+=======
+            margin: 23px 0;
+            width: 12%;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
             height: 1%;
           }
   
           .solution-heading {
             margin: 17px 6px 2px;
       
+<<<<<<< HEAD
             font-size: 14px;
+=======
+            font-family: $font-opensans-bold;
+            font-size: 14px;
+            color: $white;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
           }
   
           .description {
             margin: 0 5px;
       
+<<<<<<< HEAD
             font-size: 14px;
+=======
+            font-family: $font-opensans-regular;
+            font-size: 14px;
+            color: $white;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
             letter-spacing: 0.4px;
           }
         }
@@ -1333,7 +1478,16 @@ html {
       }
     
       .title-button-holder {
+<<<<<<< HEAD
         width: 100%;
+=======
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 97px;
+        align-items: flex-end;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
       }
 
       .heading-description {
@@ -1345,6 +1499,7 @@ html {
       }
 
       .reading-heading {
+<<<<<<< HEAD
         margin: 0 0 12px;
         width: 95%;
 
@@ -1357,6 +1512,21 @@ html {
   
       .swiper-container {
         margin: 3px 0 0;
+=======
+        margin: 8px 0;
+  
+        font-family: $font-opensans-regular;
+        font-size: 12px;
+        letter-spacing: 0.3px;
+      }
+  
+      .reading-title {
+        margin-top: 69px;
+
+        font-family: $font-opensans-bold;
+        font-size: 19px;
+        letter-spacing: 0.9px;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
       }
   
       .swiper-slide {
@@ -1397,12 +1567,43 @@ html {
             word-spacing: 3px;
           }
   
+<<<<<<< HEAD
           .sub-title {
             margin-bottom: 0;
             margin-left: 6%;
 
             font-size: 11px;
           }
+=======
+        display: none;
+        padding: 20px;
+  
+        list-style: none;
+  
+        background-color: grey;
+      }
+  
+      #dropdown-heading {
+        padding: 10px;
+  
+        font-family: $font-opensans-regular;
+        font-size: 14px;
+        color: $text-color;
+        list-style: none;
+      }
+  
+      .swiper-container {
+        margin-top: 22px;
+      }
+  
+      .swiper-slide {
+        &:first-child {
+          width: 100%;
+          height: 200px;
+  
+          background-image: url("/assets/images/16.fw.png");
+          background-repeat: no-repeat;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
   
           .label {
             padding: 1px 9px;
@@ -1414,8 +1615,13 @@ html {
         }
   
         &:nth-child(2) {
+<<<<<<< HEAD
           width: 96.8%;
           height: 198px;
+=======
+          width: 24.5%;
+          height: 200px;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
   
           background-image: url("../assets/images/17.fw.png");
           background-repeat: no-repeat;
@@ -1430,6 +1636,17 @@ html {
             line-height: 1.2;
             word-spacing: 3px;
           }
+<<<<<<< HEAD
+=======
+        }
+  
+        &:nth-child(3) {
+          width: 24.5%;
+          height: 200px;
+  
+          background-image: url("/assets/images/18.fw.png");
+          background-repeat: no-repeat;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
   
           .sub-title {
             margin-bottom: 0;
@@ -1437,6 +1654,17 @@ html {
 
             font-size: 11px;
           }
+<<<<<<< HEAD
+=======
+        }
+  
+        &:last-child {
+          width: 24.5%;
+          height: 200px;
+  
+          background-image: url("/assets/images/19.fw.png");
+          background-repeat: no-repeat;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
   
           .label {
             padding: 1px 9px;
@@ -1552,9 +1780,18 @@ html {
       }
   
       #monitor {
+<<<<<<< HEAD
         padding-top: 105px;
         margin: 0;
         width: 294px;
+=======
+        padding-top: 10px;
+        width: 50%;
+      }
+  
+      .info-holder {
+        padding-left: 31px;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
       }
   
       .title {
@@ -1644,6 +1881,13 @@ html {
       
       .image-info {
         display: none;
+<<<<<<< HEAD
+=======
+      }
+  
+      #app-store {
+        margin-right: 14px;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
       }
   
       .download-assistance-app {
@@ -1653,11 +1897,19 @@ html {
       .flex-content {
         display: flex;
         flex-direction: column;
+<<<<<<< HEAD
+=======
+        justify-content: space-between;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
       }
   
       .image-info-holder {
         width: 100%;
+<<<<<<< HEAD
         height: 190px;
+=======
+        height: 265px;
+>>>>>>> fc9bc94 (edit header in desktop layout and mobile responsive done)
         
         align-items: center;
         
