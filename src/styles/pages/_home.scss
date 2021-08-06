@@ -4544,7 +4544,6 @@ html {
   
       .three-info-content {
         display: flex;
-        flex-wrap: wrap;
         flex-direction: row;
         margin-top: 46px;
         margin-left: 20px;
@@ -4585,7 +4584,6 @@ html {
         }
   
         &:last-child {
-          margin: 40px 0;
   
           .mission-icon {
             margin-left: 3px;
@@ -4706,15 +4704,16 @@ html {
       } 
   
       .solution-title {
-        margin: 154px 71px 0 88px;
-  
+        margin: 0;
+        padding-top: 33px;
+
         font-family: $font-opensans-bold;
-        font-size: 40px;
+        font-size: 20px;
         color: $white;
       }
   
       .content-solution {
-        padding: 29px 0 129px 89px;
+        padding: 27px 0
       }
   
       .paragraph-solution {
@@ -4725,7 +4724,7 @@ html {
           
           .profile-icon {
             margin: 3px 3px;
-            width: 8%;
+            width: 12%;
             height: 1%;
           }
   
@@ -4733,7 +4732,7 @@ html {
             margin-bottom: 4px;
       
             font-family: $font-opensans-bold;
-            font-size: 18px;
+            font-size: 14px;
             color: $white;
           }
   
@@ -4741,7 +4740,7 @@ html {
             margin-bottom: 30px;
       
             font-family: $font-opensans-regular;
-            font-size: 16px;
+            font-size: 14px;
             color: $white;
             letter-spacing: 0.4px;
           }
@@ -4749,24 +4748,24 @@ html {
   
         &:nth-child(2) {
           .profile-icon {
-            margin: 9px 3px;
-            width: 7%;
+            margin: 4px 0;
+            width: 11%;
             height: 1%;
           }
   
           .solution-heading {
-            margin: 0 5px 4px;
+            margin: 0 10px 4px;
       
             font-family: $font-opensans-bold;
-            font-size: 18px;
+            font-size: 14px;
             color: $white;
           }
   
           .description {
-            margin: 2px 5px 0;
+            margin: 0 10px 0;
       
             font-family: $font-opensans-regular;
-            font-size: 16px;
+            font-size: 14px;
             color: $white;
             letter-spacing: 0.2px;
           }
@@ -4774,49 +4773,49 @@ html {
   
         &:nth-child(3) {
           .profile-icon {
-            margin: 32px 2px;
-            width: 8%;
+            margin: 32px 0;
+            width: 13%;
             height: 1%;
           }
   
           .solution-heading {
-            margin: 21px 1px 4px;
+            margin: 27px 3px 4px;
   
             font-family: $font-opensans-bold;
-            font-size: 18px;
+            font-size: 14px;
             color: $white;
           }
   
           .description {
-            margin-bottom: 26px;
+            margin: 0 3px;
       
             font-family: $font-opensans-regular;
-            font-size: 16px;
+            font-size: 13px;
             color: $white;
-            letter-spacing: 0.4px;
+            letter-spacing: 0.7px;
           }
         }
   
         &:last-child {
           .profile-icon {
-            margin: 9px 6px;
-            width: 7%;
+            margin: 23px 0;
+            width: 12%;
             height: 1%;
           }
   
           .solution-heading {
-            margin-bottom: 6px;
+            margin: 17px 6px 2px;
       
             font-family: $font-opensans-bold;
-            font-size: 18px;
+            font-size: 14px;
             color: $white;
           }
   
           .description {
-            margin-bottom: 27px;
+            margin: 0 5px;
       
             font-family: $font-opensans-regular;
-            font-size: 16px;
+            font-size: 14px;
             color: $white;
             letter-spacing: 0.4px;
           }
@@ -4826,7 +4825,7 @@ html {
       .description-holder {
         display: flex;
         flex-direction: column;
-        padding: 0 26px;
+        padding: 0 19px;
       }
     }
   
