@@ -57,16 +57,13 @@
 
 @include respond-to (xs) {
     .section-footer {
-        background-color: $light-grey;
-        
-        .flex-content {
-            padding: 35px 4px 29px;
-            
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-    
+        position: relative;
+        bottom: 65px;
+
+        background-color: transparent;
+
+        .heading {
+            color: $white;
         }
         
         #careers,
@@ -80,14 +77,32 @@
     }
 }
     
-    // @include respond-to (sm) {
+@include respond-to (sm) {
+    .section-footer {
+        position: relative;
+        bottom: 100px;
+
+        background-color: transparent;
+
+        .heading {
+            color: $white;
+        }
+
+        #careers,
+        #policy {
+            display: none;
+        }
     
-    // }
+        .icons {
+            display: none;
+        }
+    }
+}
     
-    // @include respond-to (md) {
-    
-    // }
-    
-    // @include respond-to (lg) {
-    
-    // }
+// @include respond-to (md) {
+
+// }
+
+// @include respond-to (lg) {
+
+// }
