@@ -894,7 +894,6 @@ html {
 
         &:first-child {
           padding: 2px 11px;
-          // margin-top: 377px;
           margin-left: 39px;
 
           background-color: $orange;
@@ -905,7 +904,6 @@ html {
         }
   
         &:nth-child(2) {
-          // margin-top: 377px;
           margin-left: 39px;
 
           background-color: $apple-green;
@@ -916,7 +914,6 @@ html {
         }
   
         &:nth-child(3) {
-          // margin-top: 377px;
           margin-left: 39px;
 
           background-color: $light-blue;
@@ -927,7 +924,6 @@ html {
         }
   
         &:last-child {
-          // margin-top: 377px;
           margin-left: 39px;
 
           background-color: $light-brown;
@@ -1050,7 +1046,7 @@ html {
       margin-top: 2px;
       margin-bottom: 20px;
       
-      font-family: $font-opensans-semibold;
+      font-family: $font-opensans-bold;
       font-size: 18px;
       letter-spacing: 0.3px;
     }
@@ -4529,7 +4525,8 @@ html {
       }
   
       .swiper-pagination {
-        color: $white;
+        display: flex;
+        flex-direction: row;
       }
   
       .swiper-pagination-bullets {
@@ -4538,9 +4535,6 @@ html {
         width: 9%;
       }
   
-      .swiper-pagination-bullet-active {
-        background: $white;
-      }
   
       .three-info-content {
         display: flex;
@@ -4563,7 +4557,7 @@ html {
           }
   
           .mission-heading {
-            margin: 11px 7px;
+            margin: 2px 4px;
             width: 50%;
           }
         }
@@ -4584,7 +4578,8 @@ html {
         }
   
         &:last-child {
-  
+          margin: 40px 0 0 13px;
+
           .mission-icon {
             margin-left: 3px;
             width: 75%;
@@ -4599,7 +4594,7 @@ html {
   
       .fixed-sidebar {
         position: fixed;
-        top: 40%;
+        top: 16%;
         right: 0;
   
         display: flex;
@@ -4705,15 +4700,13 @@ html {
   
       .solution-title {
         margin: 0;
-        padding-top: 33px;
+        padding: 32px 14px 0;
 
-        font-family: $font-opensans-bold;
         font-size: 20px;
-        color: $white;
       }
   
       .content-solution {
-        padding: 27px 0
+        padding: 27px 13px 39px;
       }
   
       .paragraph-solution {
@@ -4731,17 +4724,13 @@ html {
           .solution-heading {
             margin-bottom: 4px;
       
-            font-family: $font-opensans-bold;
             font-size: 14px;
-            color: $white;
           }
   
           .description {
             margin-bottom: 30px;
       
-            font-family: $font-opensans-regular;
             font-size: 14px;
-            color: $white;
             letter-spacing: 0.4px;
           }
         }
@@ -4756,17 +4745,13 @@ html {
           .solution-heading {
             margin: 0 10px 4px;
       
-            font-family: $font-opensans-bold;
             font-size: 14px;
-            color: $white;
           }
   
           .description {
             margin: 0 10px 0;
       
-            font-family: $font-opensans-regular;
             font-size: 14px;
-            color: $white;
             letter-spacing: 0.2px;
           }
         }
@@ -4781,7 +4766,6 @@ html {
           .solution-heading {
             margin: 27px 3px 4px;
   
-            font-family: $font-opensans-bold;
             font-size: 14px;
             color: $white;
           }
@@ -4789,9 +4773,7 @@ html {
           .description {
             margin: 0 3px;
       
-            font-family: $font-opensans-regular;
             font-size: 13px;
-            color: $white;
             letter-spacing: 0.7px;
           }
         }
@@ -4806,17 +4788,13 @@ html {
           .solution-heading {
             margin: 17px 6px 2px;
       
-            font-family: $font-opensans-bold;
             font-size: 14px;
-            color: $white;
           }
   
           .description {
             margin: 0 5px;
       
-            font-family: $font-opensans-regular;
             font-size: 14px;
-            color: $white;
             letter-spacing: 0.4px;
           }
         }
@@ -4851,7 +4829,7 @@ html {
       .heading-description {
         padding: 0 7px 0;
       }
-  
+
       .reading-heading {
         margin: 0 0 14px;
         font-size: 19px;
