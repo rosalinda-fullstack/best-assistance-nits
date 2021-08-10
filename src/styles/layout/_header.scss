@@ -26,6 +26,10 @@
         justify-content: flex-end;
     }
 
+    .show-tablet-buttons {
+        display: none;
+    }
+
     .all-content-holder {
         display: flex;
         flex-direction: row;
@@ -394,7 +398,7 @@
         position: fixed;
         z-index: 999;
     
-        width: 100%;
+        width: 51%;
     
         background-color: transparent;
     
@@ -409,7 +413,10 @@
         .container {
             display: flex;
             flex-direction: row;
-            justify-content: flex-end;
+        }
+
+        .show-tablet-buttons {
+            display: none;
         }
     
         .all-content-holder {
@@ -428,12 +435,12 @@
     
         .navbar-brand {
             position: relative;
-            right: 294px;
-            bottom: 3px;
+            right: 424px;
+            bottom: 11px;
         }
     
         .logo {
-            margin-top: 14px;
+            width: 61%;
         }
     
         #navbarSupportedContent {
@@ -451,12 +458,11 @@
         .button-holder {
             display: flex;
             flex-direction: row;
-            justify-content: flex-end;
         }
     
         .btn-telephone-number {
             padding: 9px 23px 11px;
-            margin-top: 29px;
+            margin-top: 0;
     
             background-color: $orange;
             border: none;
