@@ -38,7 +38,6 @@
         display: flex;
         flex-direction: row;
 
-
         .grey-icons {
             margin-right: 10px;
         }
@@ -58,9 +57,13 @@
 @include respond-to (xs) {
     .section-footer {
         position: relative;
-        bottom: 65px;
+        bottom: 52px;
 
         background-color: transparent;
+
+        .flex-content {
+            padding: 0;
+        }
 
         .heading {
             color: $white;
@@ -84,7 +87,14 @@
 
         background-color: transparent;
 
+        .flex-content {
+            padding: 0 9px 0;
+        }
+
         .heading {
+            margin: 0;
+
+            font-size: 13px;
             color: $white;
         }
 
@@ -99,10 +109,49 @@
     }
 }
     
-// @include respond-to (md) {
+@include respond-to (md) {
+    .section-footer {
+        position: relative;
+        bottom: 69px;
 
-// }
+        background-color: transparent;
 
-// @include respond-to (lg) {
+        .flex-content {
+            padding: 0 9px 0;
+        }
 
-// }
+        .heading {
+            margin: 0;
+
+            font-size: 13px;
+            color: $white;
+        }
+
+        #careers,
+        #policy {
+            display: none;
+        }
+    
+        .icons {
+            display: none;
+        }
+    }
+}
+
+@include respond-to (lg) {
+    .section-footer {    
+        .flex-content {
+            padding: 8px 4px 8px;
+        }
+        
+        .heading {
+            margin-right: 20px;
+            
+            font-size: 12px;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
