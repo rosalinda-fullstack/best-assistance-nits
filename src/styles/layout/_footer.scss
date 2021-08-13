@@ -83,12 +83,12 @@
 @include respond-to (sm) {
     .section-footer {
         position: relative;
-        bottom: 100px;
+        bottom: 47px;
 
         background-color: transparent;
 
         .flex-content {
-            padding: 0 9px 0;
+            padding: 0 9px 11px;
         }
 
         .heading {
@@ -150,6 +150,59 @@
             font-size: 12px;
 
             &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .section-footer {
+        background-color: $light-grey;
+        
+        .flex-content {
+            padding: 35px 4px 29px;
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+    
+        }
+        
+        .list {
+            display: flex;
+            flex-direction: row;
+            margin-top: 16px;
+        }
+        
+        .heading {
+            margin-right: 45px;
+            
+            font-family: $font-opensans-regular;
+            font-size: 14px;
+            color: $text-color;
+            
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    
+        .icons {
+            display: flex;
+            flex-direction: row;
+    
+            .grey-icons {
+                margin-right: 10px;
+            }
+    
+            .uncolored-links {
+                padding-left: 3px;
+                text-decoration: none;
+            }
+            
+            .colored-links {
+                padding-left: 13px;
                 text-decoration: none;
             }
         }

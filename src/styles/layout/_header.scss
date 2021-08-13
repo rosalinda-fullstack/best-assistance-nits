@@ -33,16 +33,12 @@
     }
 
     .navbar-brand {
-        padding-bottom: 21px;
-        padding-left: 3px;
-    }
-
-    .navbar-collapse {
-        align-items: baseline;
+        padding-bottom: 17px;
+        padding-left: 2px;
     }
 
     .navbar-nav {
-        padding: 41px 0;
+        padding: 43px 33px 37px;
         margin-left: 23%;
     }
     
@@ -50,17 +46,17 @@
         padding-left: 26px;
         
         font-family: $font-opensans-semibold;
-        font-size: 15px;
+        font-size: 14px;
         color: $black;
     }
 
     .nav-item {
-        margin-left: 22px;
+        margin-left: 30px;
     }
 
     .btn-telephone-number {
-        padding: 7px 23px 13px;
-        margin-top: 29px;
+        margin: 37px 0 30px;
+        width: 13.6%;
 
         background-color: $orange;
         border: none;
@@ -70,9 +66,13 @@
         outline: 0;
         
         &:hover {
+            color: $text-color;
             list-style: none;
-
             outline: none;
+           
+            background-color: $light-orange;
+            
+            border: 2px solid $orange;  
 
             transition: 0.3s ease-in-out;
         }
@@ -84,7 +84,7 @@
 
     #telephone-number {
         display: inline-block;
-        padding-left: 2px;
+        padding: 11px 0 10px;
 
         font-size: 15px;
         color: $white;
@@ -92,31 +92,35 @@
     }
 
     #language-option {
-        padding-left: 21px;
-        width: 8%;
-        height: 48px;
+        padding: 15px 23px 14px;
+        margin: 7px 0 0 4px;
+        width: 5.9%;
 
         font-family: $font-opensans-regular;
-        font-size: 12px;
+        font-size: 14px;
         color: $white;
+        letter-spacing: 0.4px;
 
         background-color: $blue;
         border: none;
         border-radius: 24px;
 
+        outline: 0;
         appearance: none;
     
         &:hover {
+            border: none;
+
             outline: none;
         }
     }
 
-
     .fa-angle-down {
         position: relative;
-        right: 30px;
+        right: 24px;
+        top: 4px;
 
-        font-size: 14px;
+        font-size: 13px;
         color: $white;
     }
 }
@@ -126,6 +130,7 @@
         position: fixed;
         z-index: 999;
         
+        width: 100%;
         height: 80px;
 
         background-color: transparent;
@@ -153,8 +158,18 @@
             flex-direction: row;
             justify-content: space-between;
             padding: 0;
-            margin: 10px 0 0;
-            width: 100%;
+            align-items: flex-start;
+            margin: 0;
+
+            .navbar-collapse {
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                
+                background-color: $white;
+            }
         }
 
         .navbar-brand {
@@ -162,12 +177,15 @@
         }
 
         #bestassistance-logo {
+            margin-top: 18px;
             width: 152px;
         }
 
         .navbar-toggler {
-            padding: 18px 0 0;
+            padding: 28px 0 0;
             margin-right: 0x;
+            
+            z-index: 999;
         }
         
         .icon-bar {
@@ -178,8 +196,13 @@
             background-color: $blue;
         }
 
+        .navbar-nav {
+            padding: 43px 0 0;
+            margin-left: 0;  
+        }
+
         .nav-link {
-            padding-left: 29px;
+            padding-left: 0;
     
             font-size: 15px;
         }
@@ -190,31 +213,38 @@
         }
 
         .btn-telephone-number {
-            padding: 9px 23px 11px;
-            margin-top: 29px;
+            margin: 0 0 30px 30px;
+            width: 50%;
 
             background-color: $orange;
             border: none;
             border-radius: 28px;
+            border: 2px solid transparent;  
 
+            outline: 0;
+    
             &:hover {
+                color: $text-color;
                 list-style: none;
-
                 outline: none;
-
+               
+                background-color: $light-orange;
+                
+                border: 2px solid $orange;  
+    
                 transition: 0.3s ease-in-out;
             }
         }
 
         .telephone-icon {
-            width: 13%;
+            width: 11%;
         }
 
         #telephone-number {
             display: inline-block;
-            padding-left: 2px;
+            padding: 11px 0 11px;
 
-            font-size: 13px;
+            font-size: 14px;
             letter-spacing: 0.6px;
             text-decoration: none;
         }
@@ -234,11 +264,17 @@
             appearance: none;
         
             &:hover {
+                border: none;
+                
                 outline: none;
             }
         }
 
         .fa-angle-down {
+            position: relative;
+            right: 38px;
+            top: 2px;
+
             font-size: 14px;
         }
     }
@@ -278,6 +314,16 @@
             padding: 0;
             margin: 10px 0 0;
             width: 100%;
+
+            .navbar-collapse {
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                
+                background-color: $white;
+            }
         }
 
         .navbar-brand {
@@ -290,7 +336,9 @@
 
         .navbar-toggler {
             padding: 18px 0 0;
-            margin-right: 0x;
+            margin-right: 0;
+
+            z-index: 999;
         }
         
         .icon-bar {
@@ -301,10 +349,15 @@
             background-color: $blue;
         }
 
+        .navbar-nav {
+            padding: 41px 0 0;
+            margin-left: 2%;
+        }
+
         .nav-link {
             padding-left: 29px;
     
-            font-size: 15px;
+            font-size: 17px;
         }
 
         .button-holder {
@@ -313,8 +366,10 @@
         }
 
         .btn-telephone-number {
-            padding: 9px 23px 11px;
-            margin-top: 29px;
+            padding: 0;
+            margin-top: 0;
+            margin-left: 11%;
+            width: 30%;
 
             background-color: $orange;
             border: none;
@@ -335,7 +390,7 @@
 
         #telephone-number {
             display: inline-block;
-            padding-left: 2px;
+            padding: 14px 0 13px;
 
             font-size: 13px;
             letter-spacing: 0.6px;
@@ -371,128 +426,150 @@
     .section-header {
         position: fixed;
         z-index: 999;
-    
-        width: 51%;
-    
-        background-color: transparent;
-    
+        
+        height: 80px;
+
         transition: 0.3s;
-    
+
         &.sticky {
-            background-color: $white;
-    
             transition: all 0.4s ease-in-out;
         }
         
-        .container {
-            display: flex;
-            flex-direction: row;
-        }
-
-        .show-tablet-buttons {
-            display: none;
-        }
-    
-        .all-content-holder {
-            display: flex;
-            flex-direction: row;
-    
-            align-items: center;
-        }
-    
         .navbar {
-            display: flex;
-            justify-content: space-between;
-            flex-direction: row;
-            padding-bottom: 32px;
-        }
-    
-        .navbar-brand {
-            position: relative;
-            right: 424px;
-            bottom: 11px;
-        }
-    
-        .logo {
-            width: 61%;
-        }
-    
-        #navbarSupportedContent {
-            align-items: baseline;
-            
-            .nav-link {
-                padding-left: 26px;
+            padding: 0;
+            margin: 10px 0 0;
+            width: 100%;
+
+            .navbar-collapse {
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
                 
-                font-family: $font-opensans-semibold;
-                font-size: 15px;
-                color: $black;
+                background-color: $white;
+            }
+            
+            .nav-item {
+                margin-left: 9%;
             }
         }
+
+
+        .navbar-brand {
+            padding: 0;
+            margin: 0 13px 2px;
+        }
+
+        #bestassistance-logo {
+            width: 61%;
+        }
+
+        .navbar-toggler {
+            padding: 15px 17px 0;
+            margin-right: 0x;
+
+            z-index: 999;
+        }
+        
+        .icon-bar {
+            margin: 5px 0;
+            width: 26px;
+            height: 2.5px;
+
+            background-color: $blue;
+        }
+
+        .navbar-nav {
+            padding: 100px 0 0;
+            margin-left: 9%;
+        }
+
+        .nav-link {
+            padding-left: 0;
     
+            font-size: 18px;
+        }
+
+        .nav-item {
+            margin-left: 0;
+        }
+
         .button-holder {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
         }
-    
+
         .btn-telephone-number {
-            padding: 9px 23px 11px;
-            margin-top: 0;
+            margin: 37px 0 30px 68px;
+            width: 22%;
     
             background-color: $orange;
             border: none;
             border-radius: 28px;
+            border: 2px solid transparent;  
     
+            outline: 0;
+            
             &:hover {
+                color: $text-color;
                 list-style: none;
-    
                 outline: none;
+               
+                background-color: $light-orange;
+                
+                border: 2px solid $orange;  
     
                 transition: 0.3s ease-in-out;
             }
         }
     
         .telephone-icon {
-            width: 13%;
+            width: 11%;
         }
     
         #telephone-number {
             display: inline-block;
-            padding-left: 2px;
+            padding: 11px 0 10px;
     
-            font-size: 13px;
+            font-size: 15px;
             color: $white;
-            letter-spacing: 0.6px;
             text-decoration: none;
         }
     
         #language-option {
-            padding-left: 21px;
-            margin: 28px 5px 0px;
-            width: 8%;
-            height: 48px;
+            padding: 15px 23px 14px;
+            margin: 7px 0 0 4px;
+            width: 11%;
     
             font-family: $font-opensans-regular;
-            font-size: 12px;
+            font-size: 14px;
             color: $white;
+            letter-spacing: 0.4px;
     
             background-color: $blue;
             border: none;
             border-radius: 24px;
     
+            outline: 0;
             appearance: none;
         
             &:hover {
+                border: none;
+    
                 outline: none;
             }
         }
     
         .fa-angle-down {
             position: relative;
-            right: 30px;
+            right: 34px;
+            top: 0;
     
-            font-size: 14px;
+            font-size: 13px;
             color: $white;
         }
+    
     }
 }
 
@@ -501,7 +578,7 @@
         position: fixed;
         z-index: 999;
     
-        width: 65.4%;
+        width: 100%;
     
         background-color: transparent;
     
@@ -513,197 +590,175 @@
             transition: all 0.4s ease-in-out;
         }
         
-        .navbar {
-            padding: 0 0 32px 0;
-        }
-
-        .container {
-            display: flex;
-            flex-direction: row;
+        .show-tablet-buttons {
+            display: none;
         }
     
-        .all-content-holder {
-            width: 100%;
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0 !important;
         }
     
         .navbar-brand {
-            position: unset;
-            right: 0;
-            bottom: 0;
+            padding-bottom: 35px;
+            padding-left: 13px;
+        }
+    
+        #bestassistance-logo {
+            width: 80%;
+        }
 
-            margin: 0;
+        .navbar-collapse {
+            align-items: baseline;
         }
     
-        .logo {
-            margin-top: 14px;
-            width: 90%;
+        .navbar-nav {
+            padding: 41px 0;
+            margin-right: 0;
+            margin-left: 0;
         }
-    
-        #navbarSupportedContent {
+        
+        
+        .nav-item {
+            margin-left: 18px;
             
             .nav-link {
-                padding: 0 7px;
-                
-                font-size: 14px;
+                padding-right: 0;
+                padding-left: 0;
+
+                font-size: 12px;
             }
         }
     
         .btn-telephone-number {
-            padding: 7px 1px 13px;
-            margin-top: 0;
-            width: 11%;
+            margin: 37px 0 30px 21px;
+            width: 20%;
         }
-    
-        .telephone-icon {
-            width: 30%;
-        }
-    
+
         #telephone-number {
-            display: none;
+            padding: 5px 0 5px;
+            font-size: 12px;
         }
-    
+
         #language-option {
-            width: 11%;
-            padding: 0 12px;
-        
-            &:hover {
-                outline: none;
-            }
+            padding: 12px 10px 12px;
+            margin: 7px 0 0 4px;
+            width: 8%;
+
+            font-size: 12px;
+        }
+
+        .fa-angle-down {
+            position: relative;
+            right: 24px;
+            top: 0;
+
+            font-size: 11px;
         }
     }
 }
 
-<<<<<<< HEAD
-// }
-=======
-// @media screen and (min-width: 2000px) {
-//     .section-header {
-//         position: fixed;
-//         z-index: 999;
+@media screen and (min-width: 2000px) {
+    .section-header {
+        position: fixed;
+        z-index: 999;
     
-//         width: 100%;
+        width: 92%;
     
-//         background-color: transparent;
+        background-color: transparent;
     
-//         transition: 0.2s;
+        transition: 0.3s;
     
-//         &.sticky {
-//             background-color: $white;
+        &.sticky {
+            background-color: $white;
     
-//             transition: all 0.4s ease-in-out;
-//         }
+            transition: all 0.4s ease-in-out;
+        }
         
-//         .container {
-//             display: flex;
-//             flex-direction: row;
-//             justify-content: unset;
-//         }
+        .show-tablet-buttons {
+            display: none;
+        }
     
-//         .show-tablet-buttons {
-//             display: none;
-//         }
+        .navbar-brand {
+            padding-bottom: 22px;
+            padding-left: 13px;
+        }
     
-//         .all-content-holder {
-//             display: flex;
-//             flex-direction: row;
+        .navbar-nav {
+            padding: 42px 0 38px 228px;
+        }
     
-//             align-items: center;
-//         }
+        .btn-telephone-number {
+            margin: 37px 0 30px 25px;
+            width: 11%;
     
-//         .navbar {
-//             display: flex;
-//             justify-content: space-between;
-//             flex-direction: row;
-//             padding-bottom: 32px;
-//         }
+            background-color: $orange;
+            border: none;
+            border-radius: 28px;
+            border: 2px solid transparent;  
     
-//         .navbar-brand {
-//             position: relative;
-//             right: 294px;
-//             bottom: 3px;
-//         }
-    
-//         .logo {
-//             margin-top: 14px;
-//         }
-    
-//         #navbarSupportedContent {
-//             align-items: baseline;
+            outline: 0;
             
-//             .nav-link {
-//                 padding-left: 26px;
+            &:hover {
+                color: $text-color;
+                list-style: none;
+                outline: none;
+               
+                background-color: $light-orange;
                 
-//                 font-family: $font-opensans-semibold;
-//                 font-size: 15px;
-//                 color: $black;
-//             }
-//         }
+                border: 2px solid $orange;  
     
-//         .button-holder {
-//             display: flex;
-//             flex-direction: row;
-//             justify-content: flex-end;
-//         }
+                transition: 0.3s ease-in-out;
+            }
+        }
     
-//         .btn-telephone-number {
-//             padding: 9px 23px 11px;
-//             margin-top: 29px;
+        .telephone-icon {
+            width: 11%;
+        }
     
-//             background-color: $orange;
-//             border: none;
-//             border-radius: 28px;
+        #telephone-number {
+            display: inline-block;
+            padding: 11px 0 10px;
     
-//             &:hover {
-//                 list-style: none;
+            font-size: 15px;
+            color: $white;
+            text-decoration: none;
+        }
     
-//                 outline: none;
+        #language-option {
+            padding: 15px 23px 14px;
+            margin: 7px 0 0 4px;
+            width: 5%;
     
-//                 transition: 0.3s ease-in-out;
-//             }
-//         }
+            font-family: $font-opensans-regular;
+            font-size: 14px;
+            color: $white;
+            letter-spacing: 0.4px;
     
-//         .telephone-icon {
-//             width: 13%;
-//         }
+            background-color: $blue;
+            border: none;
+            border-radius: 24px;
     
-//         #telephone-number {
-//             display: inline-block;
-//             padding-left: 2px;
-    
-//             font-size: 13px;
-//             color: $white;
-//             letter-spacing: 0.6px;
-//             text-decoration: none;
-//         }
-    
-//         #language-option {
-//             padding-left: 21px;
-//             margin: 28px 5px 0px;
-//             width: 8%;
-//             height: 48px;
-    
-//             font-family: $font-opensans-regular;
-//             font-size: 12px;
-//             color: $white;
-    
-//             background-color: $blue;
-//             border: none;
-//             border-radius: 24px;
-    
-//             appearance: none;
+            outline: 0;
+            appearance: none;
         
-//             &:hover {
-//                 outline: none;
-//             }
-//         }
+            &:hover {
+                border: none;
     
-//         .fa-angle-down {
-//             position: relative;
-//             right: 30px;
+                outline: none;
+            }
+        }
     
-//             font-size: 14px;
-//             color: $white;
-//         }
-//     }
-// }
->>>>>>> 241076c (edit all sizes of layout)
+        .fa-angle-down {
+            position: relative;
+            right: 24px;
+            top: 4px;
+    
+            font-size: 13px;
+            color: $white;
+        }
+    
+    }
+}
