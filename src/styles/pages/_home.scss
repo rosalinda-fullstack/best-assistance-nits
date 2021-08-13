@@ -4360,6 +4360,7 @@ html {
       }
 
       .check-icon {
+        margin-top: 4px;
         width: 4%;
         height: 1%;
       }
@@ -4397,7 +4398,7 @@ html {
       .text-info {
         margin-top: 0;
       }
-  
+
       .title {
         padding-bottom: 13px;
         margin-bottom: 0;
@@ -4425,13 +4426,13 @@ html {
           width: 370px;
         }
       }
-  
+
       .download-assistance-app {
         width: 25%;
       }
   
       .image-info-holder {
-        width: 33%;
+        width: 36%;
         
         &:first-child {
           padding: 38px 0;
@@ -4583,6 +4584,10 @@ html {
         }
       }
   
+      .three-info-content {
+        margin: 0 20px 0;
+      }
+
       .fixed-sidebar {
         position: fixed;
         top: 16%;
