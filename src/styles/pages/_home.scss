@@ -928,9 +928,9 @@ html {
 
           background-color: $light-brown;
 
-          &:hover {
-            margin-left: 127px;
-          }
+          font-family: $font-opensans-bold;
+          font-size: 28px;
+          color: $white;
         }
       }
     }
@@ -943,6 +943,8 @@ html {
       border-radius: 28px;
 
       &:hover {
+        border: none;
+
         outline: none;
 
         transition: 0.3s ease-in-out;
@@ -1052,6 +1054,8 @@ html {
       border-radius: 28px;
 
       &:hover {
+        border: none;
+        
         outline: none;
 
         transition: 0.3s ease-in-out;
