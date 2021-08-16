@@ -580,45 +580,19 @@
             display: none;
         }
     
-        .navbar {
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            padding: 0 !important;
-        }
-    
         .navbar-brand {
-            padding-bottom: 21px;
-            padding-left: 3px;
-        }
-    
-        .navbar-collapse {
-            align-items: baseline;
+            padding-bottom: 22px;
+            padding-left: 13px;
         }
     
         .navbar-nav {
-            padding: 41px 0;
-            margin-left: 23%;
-        }
-        
-        .nav-link {
-            padding-left: 26px;
-            
-            font-family: $font-opensans-semibold;
-            font-size: 15px;
-            color: $black;
-        }
-    
-        .nav-item {
-            margin-left: 22px;
+            padding: 42px 0 38px 228px;
         }
     
         .btn-telephone-number {
             padding: 7px 23px 13px;
             margin-top: 29px;
-    
-            background-color: $orange;
+
             border: none;
             border-radius: 28px;
     
@@ -630,31 +604,12 @@
                 transition: 0.3s ease-in-out;
             }
         }
-    
-        .telephone-icon {
-            width: 13%;
-        }
-    
-        #telephone-number {
-            display: inline-block;
-            padding-left: 2px;
-    
-            font-size: 13px;
-            color: $white;
-            letter-spacing: 0.6px;
-            text-decoration: none;
-        }
-    
+        
         #language-option {
             padding-left: 21px;
             width: 5%;
             height: 48px;
-    
-            font-family: $font-opensans-regular;
-            font-size: 12px;
-            color: $white;
-    
-            background-color: $blue;
+
             border: none;
             border-radius: 24px;
     
@@ -663,14 +618,6 @@
             &:hover {
                 outline: none;
             }
-        }
-    
-        .fa-angle-down {
-            position: relative;
-            right: 30px;
-    
-            font-size: 14px;
-            color: $white;
         }
     }
 }

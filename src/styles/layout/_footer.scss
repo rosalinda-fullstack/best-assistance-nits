@@ -158,53 +158,18 @@
 
 @media screen and (min-width: 2000px) {
     .section-footer {
-        background-color: $light-grey;
-        
+
         .flex-content {
-            padding: 35px 4px 29px;
-            
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-    
+            padding: 35px 4px 28px;
         }
-        
+
         .list {
-            display: flex;
-            flex-direction: row;
-            margin-top: 16px;
+            margin-top: 12px;
+            margin-left: 6px;
         }
         
         .heading {
-            margin-right: 45px;
-            
-            font-family: $font-opensans-regular;
-            font-size: 14px;
-            color: $text-color;
-            
-            &:hover {
-                text-decoration: none;
-            }
-        }
-    
-        .icons {
-            display: flex;
-            flex-direction: row;
-    
-            .grey-icons {
-                margin-right: 10px;
-            }
-    
-            .uncolored-links {
-                padding-left: 3px;
-                text-decoration: none;
-            }
-            
-            .colored-links {
-                padding-left: 13px;
-                text-decoration: none;
-            }
+            margin-right: 44px;
         }
     }
 }
