@@ -91,7 +91,7 @@
 
     #language-option {
         padding-left: 21px;
-        width: 8%;
+        width: 6%;
         height: 48px;
 
         font-family: $font-opensans-regular;
@@ -105,6 +105,8 @@
         appearance: none;
     
         &:hover {
+            border: none;
+
             outline: none;
         }
     }
@@ -197,6 +199,8 @@
             &:hover {
                 list-style: none;
 
+                border: none;
+
                 outline: none;
 
                 transition: 0.3s ease-in-out;
@@ -231,6 +235,8 @@
             appearance: none;
         
             &:hover {
+                border: none;
+                
                 outline: none;
             }
         }
@@ -427,6 +433,8 @@
             &:hover {
                 list-style: none;
 
+                border: none;
+                
                 outline: none;
 
                 transition: 0.3s ease-in-out;
@@ -461,6 +469,8 @@
             appearance: none;
         
             &:hover {
+                border: none;
+
                 outline: none;
             }
         }
@@ -609,13 +619,17 @@
             padding-left: 21px;
             width: 5%;
             height: 48px;
-
+    
+            font-size: 12px;
+    
             border: none;
             border-radius: 24px;
     
             appearance: none;
         
             &:hover {
+                border: none;
+
                 outline: none;
             }
         }

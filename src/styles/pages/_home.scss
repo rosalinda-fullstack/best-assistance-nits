@@ -26,7 +26,7 @@
    
     .swiper-slide {
       display: flex;
-      width: 759px;
+      width: 752px;
 
       background: none;
     }
@@ -239,6 +239,8 @@
       border-radius: 28px;
 
       &:hover {
+        border: none;
+
         outline: none;
 
         transition: 0.3s ease-in-out;
@@ -255,6 +257,8 @@
       border-radius: 28px;
 
       &:hover {
+        border: none;
+
         outline: none;
 
         transition: 0.3s ease-in-out;
@@ -445,6 +449,8 @@
       transition: 0.3s ease-in-out;
 
       &:hover {
+        border: none;
+
         outline: none;
 
         transition: 0.3s ease-in-out;
@@ -489,6 +495,42 @@
     }
 
     .swiper-slide {
+      padding-top: 26%;
+
+      .title {
+        margin-left: 11%;
+
+        font-family: $font-opensans-bold;
+        font-size: 27px;
+        color: $white;
+      }
+
+      .sub-title {
+        margin-left: 11%;
+
+        font-family: $font-opensans-regular;
+        font-size: 14px;
+        color: $white;
+      }
+
+      span.label {
+        padding: 2px 11px;
+        margin-left: 11%;
+
+        font-family: $font-opensans-regular;
+        font-size: 14px;
+        color: $white;
+
+        background-color: $orange;
+      }
+
+      &:hover {
+        padding-top: 23%;
+
+        transform: scale(1.1);
+        transition: 0.2s ease-in-out;
+      }
+
       &:first-child {
         width: 50%;
         height: 513px;
@@ -496,11 +538,13 @@
         background-image: url("/assets/images/16.fw.png");
         background-repeat: no-repeat;
 
-        &:hover {
-          width: 70%;
+        .title {
+          margin-left: 11%;
+          width: 50%;
 
-          transform: scale(1.2);
-          transition: 0.3s ease-in-out;
+          font-family: $font-opensans-bold;
+          font-size: 27px;
+          color: $white;
         }
       }
 
@@ -511,11 +555,13 @@
         background-image: url("/assets/images/17.fw.png");
         background-repeat: no-repeat;
 
-        &:hover {
-          width: 50%;
+        .title {
+          margin-left: 11%;
+          width: 79%;
 
-          transform: scale(1.2);
-          transition: 0.3s ease-in-out;
+          font-family: $font-opensans-bold;
+          font-size: 27px;
+          color: $white;
         }
       }
 
@@ -526,11 +572,12 @@
         background-image: url("/assets/images/18.fw.png");
         background-repeat: no-repeat;
 
-        &:hover {
-          width: 50%;
+        .title {
+          margin-left: 11%;
 
-          transform: scale(1.2);
-          transition: 0.3s ease-in-out;
+          font-family: $font-opensans-bold;
+          font-size: 28px;
+          color: $white;
         }
       }
 
@@ -541,138 +588,12 @@
         background-image: url("/assets/images/19.fw.png");
         background-repeat: no-repeat;
 
-        &:hover {
-          width: 50%;
+        .title {
+          margin-left: 11%;
 
-          transform: scale(1.2);
-          transition: 0.3s ease-in-out;
-        }
-      }
-
-      .title {
-        font-family: $font-opensans-bold;
-        font-size: 27px;
-        color: $white;
-
-        &:first-child {
-          margin-top: 377px;
-          margin-left: 39px;
-
-          &:hover {
-            margin-left: 127px;
-          }
-        }
-
-        &:nth-child(2) {
-          margin-top: 377px;
-          margin-left: 39px;
-
-          &:hover {
-            margin-left: 127px;
-          }
-        }
-
-        &:nth-child(3) {
-          margin-top: 377px;
-          margin-left: 39px;
-
-          &:hover {
-            margin-left: 127px;
-          }
-        }
-
-        &:last-child {
-          margin-top: 377px;
-          margin-left: 39px;
-
-          &:hover {
-            margin-left: 127px;
-          }
-        }
-      }
-  
-      .sub-title {
-        font-family: $font-opensans-regular;
-        font-size: 14px;
-        color: $white;
-
-        &:first-child {
-          margin-left: 39px;
-
-          &:hover {
-            margin-left: 127px;
-          }
-        }
-
-        &:nth-child(2) {
-          margin-left: 39px;
-
-          &:hover {
-            margin-left: 127px;
-          }
-        }
-
-        &:nth-child(3) {
-          margin-left: 39px;
-
-          &:hover {
-            margin-left: 127px;
-          }
-        }
-
-        &:last-child {
-          margin-left: 39px;
-          
-          &:hover {
-            margin-left: 127px;
-          }
-        }
-      }
-  
-      span.label {
-        font-family: $font-opensans-regular;
-        font-size: 14px;
-        color: $white;
-
-        &:first-child {
-          padding: 2px 11px;
-          margin-left: 39px;
-
-          background-color: $orange;
-
-          &:hover {
-            margin-left: 127px;
-          }
-        }
-  
-        &:nth-child(2) {
-          margin-left: 39px;
-
-          background-color: $apple-green;
-
-          &:hover {
-            margin-left: 127px;
-          }
-        }
-  
-        &:nth-child(3) {
-          margin-left: 39px;
-
-          background-color: $light-blue;
-
-          &:hover {
-            margin-left: 127px;
-          }
-        }
-  
-        &:last-child {
-          margin-left: 39px;
-
-          background-color: $light-brown;
-
-          &:hover {
-            margin-left: 127px;
-          }
+          font-family: $font-opensans-bold;
+          font-size: 28px;
+          color: $white;
         }
       }
     }
@@ -685,6 +606,8 @@
       border-radius: 28px;
 
       &:hover {
+        border: none;
+
         outline: none;
 
         transition: 0.3s ease-in-out;
@@ -794,6 +717,8 @@
       border-radius: 28px;
 
       &:hover {
+        border: none;
+        
         outline: none;
 
         transition: 0.3s ease-in-out;
