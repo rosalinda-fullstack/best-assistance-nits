@@ -92,15 +92,9 @@
     }
 
     #language-option {
-<<<<<<< HEAD
         padding: 15px 23px 14px;
         margin: 7px 0 0 4px;
         width: 5.9%;
-=======
-        padding-left: 21px;
-        width: 6%;
-        height: 48px;
->>>>>>> 3d54b13 (2000px done, polish all layouts)
 
         font-family: $font-opensans-regular;
         font-size: 14px;
@@ -232,12 +226,6 @@
             &:hover {
                 color: $text-color;
                 list-style: none;
-<<<<<<< HEAD
-=======
-
-                border: none;
-
->>>>>>> 3d54b13 (2000px done, polish all layouts)
                 outline: none;
                
                 background-color: $light-orange;
@@ -526,12 +514,6 @@
             &:hover {
                 color: $text-color;
                 list-style: none;
-<<<<<<< HEAD
-=======
-
-                border: none;
-                
->>>>>>> 3d54b13 (2000px done, polish all layouts)
                 outline: none;
                
                 background-color: $light-orange;
@@ -574,11 +556,7 @@
         
             &:hover {
                 border: none;
-<<<<<<< HEAD
     
-=======
-
->>>>>>> 3d54b13 (2000px done, polish all layouts)
                 outline: none;
             }
         }
@@ -713,16 +691,10 @@
         }
     
         .btn-telephone-number {
-<<<<<<< HEAD
             margin: 37px 0 30px 25px;
             width: 11%;
     
             background-color: $orange;
-=======
-            padding: 7px 23px 13px;
-            margin-top: 29px;
-
->>>>>>> 8a742e8 (2000px done, polish next)
             border: none;
             border-radius: 28px;
             border: 2px solid transparent;  
@@ -741,7 +713,6 @@
                 transition: 0.3s ease-in-out;
             }
         }
-<<<<<<< HEAD
     
         .telephone-icon {
             width: 11%;
@@ -756,14 +727,10 @@
             text-decoration: none;
         }
     
-=======
-        
->>>>>>> 8a742e8 (2000px done, polish next)
         #language-option {
             padding: 15px 23px 14px;
             margin: 7px 0 0 4px;
             width: 5%;
-<<<<<<< HEAD
     
             font-family: $font-opensans-regular;
             font-size: 14px;
@@ -771,16 +738,6 @@
             letter-spacing: 0.4px;
     
             background-color: $blue;
-=======
-            height: 48px;
-<<<<<<< HEAD
-
->>>>>>> 8a742e8 (2000px done, polish next)
-=======
-    
-            font-size: 12px;
-    
->>>>>>> 3d54b13 (2000px done, polish all layouts)
             border: none;
             border-radius: 24px;
     
@@ -789,15 +746,10 @@
         
             &:hover {
                 border: none;
-<<<<<<< HEAD
     
-=======
-
->>>>>>> 3d54b13 (2000px done, polish all layouts)
                 outline: none;
             }
         }
-<<<<<<< HEAD
     
         .fa-angle-down {
             position: relative;
@@ -808,7 +760,5 @@
             color: $white;
         }
     
-=======
->>>>>>> 8a742e8 (2000px done, polish next)
     }
 }

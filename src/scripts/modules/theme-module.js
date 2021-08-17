@@ -74,6 +74,7 @@ const _headerScroll = () => {
     _privateMethod();
     _swiperReading();
     _headerScroll();
+    _toggle();
   };
 
   return {
