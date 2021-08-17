@@ -410,8 +410,6 @@
   }
 
   .section-reading {
-    margin-bottom: 151px;
-
     .title-button-holder {
       display: flex;
       flex-direction: row;
@@ -492,31 +490,25 @@
 
     .swiper-container {
       margin-top: 22px;
+      margin-bottom: 54px;
+      margin-left: 2px;
     }
 
     .swiper-slide {
-      padding-top: 26%;
+      padding-top: 23.6%;
 
       .title {
-        margin-left: 11%;
-
         font-family: $font-opensans-bold;
-        font-size: 27px;
         color: $white;
       }
 
       .sub-title {
-        margin-left: 11%;
-
         font-family: $font-opensans-regular;
         font-size: 14px;
         color: $white;
       }
 
-      span.label {
-        padding: 2px 11px;
-        margin-left: 11%;
-
+      .label {
         font-family: $font-opensans-regular;
         font-size: 14px;
         color: $white;
@@ -526,25 +518,37 @@
 
       &:hover {
         padding-top: 23%;
+        padding-left: 2%;
 
         transform: scale(1.1);
         transition: 0.2s ease-in-out;
       }
 
       &:first-child {
-        width: 50%;
+        width: 49.8%;
         height: 513px;
 
         background-image: url("/assets/images/16.fw.png");
         background-repeat: no-repeat;
 
         .title {
-          margin-left: 11%;
-          width: 50%;
+          margin-left: 5%;
+          width: 42%;
+        
+          font-size: 28px;
+          line-height: 1.3;
+          word-spacing: 3px;
+  
+        }
 
-          font-family: $font-opensans-bold;
-          font-size: 27px;
-          color: $white;
+        .sub-title {
+          margin-bottom: 25px;
+          margin-left: 5%;
+        }
+
+        .label {
+          padding: 3px 13px;
+          margin-left: 5.1%;  
         }
       }
 
@@ -556,12 +560,22 @@
         background-repeat: no-repeat;
 
         .title {
-          margin-left: 11%;
-          width: 79%;
+          margin-left: 8%;
+          width: 83%;
 
-          font-family: $font-opensans-bold;
-          font-size: 27px;
-          color: $white;
+          font-size: 28px;
+          line-height: 1.3;
+          word-spacing: 2.1px;
+        }
+
+        .sub-title {
+          margin-bottom: 23px;
+          margin-left: 7%;
+        }
+        
+        .label {
+          padding: 3px 10px;
+          margin-left: 8.5%;
         }
       }
 
@@ -573,11 +587,22 @@
         background-repeat: no-repeat;
 
         .title {
-          margin-left: 11%;
+          margin-bottom: 12px;
+          margin-left: 10%;
+          width: 86%;
 
-          font-family: $font-opensans-bold;
-          font-size: 28px;
-          color: $white;
+          font-size: 29px;
+          line-height: 1.3;
+        }
+
+        .sub-title {
+          margin-bottom: 25px;
+          margin-left: 9%;
+        }
+        
+        .label {
+          padding: 3px 11px;
+          margin-left: 9%;
         }
       }
 
@@ -589,17 +614,29 @@
         background-repeat: no-repeat;
 
         .title {
-          margin-left: 11%;
+          margin-bottom: 12px;
+          margin-left: 4%;
+          width: 87%;
 
-          font-family: $font-opensans-bold;
-          font-size: 28px;
-          color: $white;
+          font-size: 29px;
+          line-height: 1.3;
+        }
+
+        .sub-title {
+          margin-bottom: 25px;
+          margin-left: 4%;
+        }
+        
+        .label {
+          padding: 3px 24px;
+          margin-left: 4%;
         }
       }
     }
 
     .btn-journal {
-      margin: 70px 2px 2px;
+      margin: 15px 2px 2px;
+      width: 13.3%;
 
       background-color: $blue;
       border: none;
@@ -615,45 +652,53 @@
     }
 
     .btn-text {
-      padding: 17px 56px 0;
+      padding: 17px 50px 1px;
 
       font-family: $font-opensans-semibold;
       font-size: 15px;
       color: $white;
     }
+
+    .leaf-background {
+      position: relative;
+      top: 94px;
+      right: 15px;
+    }
+
+    #top-leaf-background {
+      width: 10%;
+    }
   }
 
   .section-system-platform {
-    padding-bottom: 99px;
-
     background-color:$grey;
-
-    // .flex-platform {
-    //   position: relative;
-    //   bottom: 70px;
-    // }
-
-    // .leaf-background {
-    //   position: relative;
-    //   bottom: 67px;
-    //   right: 23px;
-    // }
 
     .flex-platform {
       display: flex;
-      padding-top: 141px;
+      padding-top: 100px;
+      height: 645px;
     }
 
-    // .plain-leaf-background {
-    //   display: flex;
-    //   justify-content: flex-end;
-     
-    //   z-index: 999;
-    // }
+    .plain-leaf-background {
+      position: relative;
+      top: 4px;
+      left: 96px;
+
+      display: flex;
+      justify-content: flex-end;
+      height: 138px;
+    }
+
+    #bottom-leaf-background {
+      width: 25%;
+      height: 283px;
+    }
 
     #monitor {
-      margin-top: 10px;
+      margin-top: 51px;
       margin-left: 22px;
+      width: 44%;
+      height: 533px;
     }
 
     .title {
@@ -684,6 +729,7 @@
     }
 
     .content-holder {
+      margin-top: 40px;
       margin-left: 131px;
     }
 
@@ -1224,8 +1270,21 @@
   
     .section-reading {
       margin-top: 0;
-      margin-bottom: 44px;
+      margin-bottom: 0;
+      height: 406px;
 
+      .leaf-background {
+        position: relative;
+        top: 20px;
+        right: 1px;
+
+        width: 55px;
+      }
+  
+      #top-leaf-background {
+        width: 60px;
+      }
+    
       .title-button-holder {
         // margin-top: 28px;
         width: 100%;
@@ -1251,7 +1310,7 @@
       }
   
       .swiper-container {
-        margin-top: 4px;
+        margin: 3px 0 0;
       }
   
       .swiper-slide {
@@ -1452,15 +1511,15 @@
       }
   
       .btn-journal {
-        margin: 22px 0 0;
+        margin: 23px 0 0;
         width: 49%;
       }
   
       .btn-text {
-        padding: 9px;
-        margin-top: 2px;
-        margin-bottom: 4px;
-  
+        padding: 12px 0 12px 0;
+        margin-top: 0;
+        margin-bottom: 0;
+
         font-size: 12px;
       }
     }
@@ -1475,18 +1534,9 @@
         height: 700px;
       }
   
-      // .leaf-background {
-      //   position: relative;
-      //   bottom: 67px;
-      //   right: 23px;
-      // }
-
-      // .plain-leaf-background {
-      //   display: flex;
-      //   justify-content: flex-end;
-       
-      //   z-index: 999;
-      // }
+      .plain-leaf-background {
+        display: none;
+      }
   
       .flex-content {
         display: flex;
@@ -1526,7 +1576,7 @@
   
       .content-holder {
         position: relative;
-        bottom: 309px;
+        bottom: 50%;
         margin-left: 0;
       }
   
@@ -1991,8 +2041,21 @@
     }
   
     .section-reading {
-      margin-top: 20px;
-      margin-bottom: 20px;
+      margin-top: 15px;
+      margin-bottom: 0;
+      height: 419px;
+
+      .leaf-background {
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 7px;
+        width: 90px;
+      }
+  
+      #top-leaf-background {
+        width: 85%;
+      } 
 
       .title-button-holder {
         width: 100%;
@@ -2022,6 +2085,7 @@
   
       .swiper-container {
         margin-top: 4px;
+        margin-bottom: 0;
         margin-left: 10px;
       }
   
@@ -2243,22 +2307,13 @@
         display: flex;
         flex-direction: column;
         padding-top: 0;
-        margin-bottom: 166px;
+        margin-bottom: 106px;
         height: 700px;
       }
   
-      // .leaf-background {
-      //   position: relative;
-      //   bottom: 67px;
-      //   right: 23px;
-      // }
-
-      // .plain-leaf-background {
-      //   display: flex;
-      //   justify-content: flex-end;
-       
-      //   z-index: 999;
-      // }
+      .plain-leaf-background {
+        display: none;
+      }
   
       .flex-content {
         display: flex;
@@ -2274,7 +2329,7 @@
       }
   
       .title {
-        margin-bottom: 336px;
+        margin-bottom: 300px;
   
         font-size: 35px;
       }
@@ -2297,7 +2352,7 @@
   
       .content-holder {
         position: relative;
-        bottom: 434px;
+        bottom: 467px;
         margin-left: 23px;
       }
   
@@ -2820,7 +2875,19 @@
     }
   
     .section-reading {
-      margin: 38px 21px 61px;
+      margin: 38px 21px 0;
+      height: 634px;
+  
+      .leaf-background {
+        position: relative;
+        top: 41px;
+        right: 0;
+        left: 2px;
+      }
+  
+      #top-leaf-background {
+        width: 15%;
+      }
   
       .title-button-holder {
         width: 100%;
@@ -2843,6 +2910,8 @@
       }
   
       .swiper-container {
+        margin-top: 22px;
+        margin-bottom: 0;
         margin-top: 14px;
       }
   
@@ -3039,9 +3108,8 @@
       }
   
       .btn-journal {
-        margin: 31px 0;
+        margin: 31px 0 0;
         width: 21%;
-
       }
   
       .btn-text {
@@ -3063,18 +3131,9 @@
         height: 700px;
       }
   
-      // .leaf-background {
-      //   position: relative;
-      //   bottom: 67px;
-      //   right: 23px;
-      // }
-
-      // .plain-leaf-background {
-      //   display: flex;
-      //   justify-content: flex-end;
-       
-      //   z-index: 999;
-      // }
+      .plain-leaf-background {
+        display: none;
+      }
   
       .flex-content {
         display: flex;
@@ -3114,12 +3173,6 @@
 
         line-height: 1.9;
       }
-  
-      // // .content-holder {
-      // //   position: relative;
-      // //   bottom: 0;
-      //   margin-left: 23px;
-      // }
   
       .check-icon-heading {
         margin: 0 0 15px;
@@ -3573,23 +3626,34 @@
     }
   
     .section-reading {
-      margin-bottom: 0;
-      
+      margin: 38px 21px 0;
+      height: 634px;
+  
+      .leaf-background {
+        position: relative;
+        top: 41px;
+        right: 0;
+        left: 2px;
+      }
+  
+      #top-leaf-background {
+        width: 15%;
+      }
+  
       .title-button-holder {
         width: 100%;
       }
 
-      .heading-description {
-        margin-left: 18px;
-      }
-
       .reading-title {
-        font-size: 35px;
+        margin-bottom: 4px;
+        font-size: 30px;
+        letter-spacing: 0.1px;
       }
-
+  
       .reading-heading {
-        margin: 0;
-        font-size: 17px;
+        margin: 4px 0;
+        font-size: 19px;
+        letter-spacing: 0.3px;
       }
   
       .btn-filter {
@@ -3597,19 +3661,23 @@
       }
   
       .swiper-container {
-        margin: 15px 20px 4px;
+        margin-top: 22px;
+        margin-bottom: 0;
+        margin-top: 14px;
       }
   
       .swiper-slide {
+        height: 358px;
+
         &:first-child {
-          width: 70%;
-          height: 400px;
-  
+          width: 75%;
+          height: 358px;
+
           background-image: url("/assets/images/16.fw.png");
           background-repeat: no-repeat;
   
           &:hover {
-            width: 70%;
+            width: 90%;
   
             transform: scale(1.2);
             transition: 0.3s ease-in-out;
@@ -3617,14 +3685,15 @@
         }
   
         &:nth-child(2) {
-          width: 24.5%;
-          height: 400px;
+          width: 50%;
+          height: 358px;
   
           background-image: url("/assets/images/17.fw.png");
           background-repeat: no-repeat;
-  
+          background-position: center;
+
           &:hover {
-            width: 50%;
+            width: 75%;
   
             transform: scale(1.2);
             transition: 0.3s ease-in-out;
@@ -3632,14 +3701,14 @@
         }
   
         &:nth-child(3) {
-          width: 24.5%;
-          height: 400px;
+          width: 50%;
+          height: 358px;
   
           background-image: url("/assets/images/18.fw.png");
           background-repeat: no-repeat;
   
           &:hover {
-            width: 50%;
+            width: 75%;
   
             transform: scale(1.2);
             transition: 0.3s ease-in-out;
@@ -3647,14 +3716,14 @@
         }
   
         &:last-child {
-          width: 24.5%;
-          height: 400px;
+          width: 50%;
+          height: 358px;
   
           background-image: url("/assets/images/19.fw.png");
           background-repeat: no-repeat;
   
           &:hover {
-            width: 50%;
+            width: 75%;
   
             transform: scale(1.2);
             transition: 0.3s ease-in-out;
@@ -3790,46 +3859,53 @@
       }
   
       .btn-journal {
-        margin: 5px 17px 35px;
-        width: 14%;
+        margin: 31px 0 0;
+        width: 21%;
       }
   
       .btn-text {
-        padding: 12px 20px 0;
+        padding: 11px 0;
+        margin: 0;
 
-        font-size: 14px;
+        font-size: 13px;
       }
     }
   
     .section-system-platform {
       padding-bottom: 0;
-  
-      // .flex-platform {
-      //   position: relative;
-      //   bottom: 70px;
-      // }
-  
-      // .leaf-background {
-      //   position: relative;
-      //   bottom: 67px;
-      //   right: 23px;
-      // }
+
+      .plain-leaf-background {
+        position: relative;
+        top: 64px;
+        left: 0;
+      }
   
       .flex-platform {
         padding-top: 0;
+        height: 553px;
       }
   
       .plain-leaf-background {
+        position: relative;
+        top: 64px;
+        left: 96px;
+  
         display: flex;
         justify-content: flex-end;
-       
-        z-index: 999;
+        height: 111px;
+      }
+  
+      #bottom-leaf-background {
+        margin-right: 9%;
+        width: 17%;
+        height: 120px;
       }
   
       #monitor {
-        margin: 100px 35px;
-        width: 300px;
-        height: 1%;
+        margin-top: 18%;
+        margin-left: 5%;
+        width: 41%;
+        height: 43%;
       }
   
       .info-holder {
@@ -3860,8 +3936,8 @@
       }
   
       .content-holder {
-        padding-bottom: 20px;
-        margin: 47px 0 20px;
+        padding-bottom: 0;
+        margin: 113px 35px 0;
       }
   
       .check-icon-heading {
@@ -4323,8 +4399,21 @@
     }
   
     .section-reading {
-      margin-bottom: 151px;
+      margin-bottom: 0;
+      height: 908px;
   
+      
+      .leaf-background {
+        position: relative;
+        top: 73px;
+        right: 0;
+        left: 0;
+      }
+  
+      #top-leaf-background {
+        width: 10%;
+      }
+
       .title-button-holder {
         width: 100%;
       }
@@ -4544,7 +4633,7 @@
       }
   
       .btn-journal {
-        margin: 70px 7px 2px;
+        margin: 16px 7px 2px;
   
         border: none;
         border-radius: 28px;
@@ -4557,29 +4646,32 @@
       }
   
       .btn-text {
-        padding: 17px 55px 1px;
+        padding: 17px 54px 1px;
       }
     }
   
     .section-system-platform {
-      padding-bottom: 99px;
-  
-      // .leaf-background {
-      //   position: relative;
-      //   bottom: 67px;
-      //   right: 23px;
-      // }
+      padding-bottom: 0;
   
       .flex-platform {
         padding-top: 138px;
       }
   
-      // .plain-leaf-background {
-      //   display: flex;
-      //   justify-content: flex-end;
-       
-      //   z-index: 999;
-      // }
+      .plain-leaf-background {
+        position: relative;
+        top: 4px;
+        left: 0;
+  
+        display: flex;
+        justify-content: flex-end;
+        height: 138px;
+      }
+  
+      #bottom-leaf-background {
+        margin-right: 36px;
+        width: 21%;
+        height: 277px;
+      }
   
       #monitor {
         margin-top: 12px;
@@ -4598,7 +4690,8 @@
       }
   
       .content-holder {
-        margin-left: 13.8%;
+        margin-top: 3px;
+        margin-left: 14%;
       }
   
       .btn-solutions {

@@ -62,6 +62,7 @@ $(document).ready(function() {
     _swiperReading();
     _filter();
     _headerScroll();
+    _toggle();
   };
 
   return {
