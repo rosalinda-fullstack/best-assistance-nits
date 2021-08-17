@@ -19,14 +19,13 @@ $(document).ready(function() {
   });
 }
 
-    const swiperBanner = new Swiper('.swiper-container', {
 
     const swiperBanner = new Swiper('.swiperBanner .swiper-container', {
       pagination: {
         el: '.swiper-pagination',
       },
     });
-  };
+
 
   const _swiperReading = () => {
     // private stuff
@@ -72,6 +71,7 @@ $(document).ready(function() {
   ///////////////////
   const init = function () {
     _headerScroll();
+    _toggle();
   };
 
   return {
