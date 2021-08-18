@@ -298,6 +298,14 @@ html {
       }
     }
 
+    #assistance-heading {
+      color: $white;
+    }
+
+    #history-heading {
+      color: $text-color;
+    }
+
     .solution-box {
       position: relative;
       bottom: 91px;
@@ -2667,7 +2675,6 @@ html {
           .sub-title {
             margin-bottom: 4px;
             margin-left: 5%;
-
             font-size: 14px;
           }
   

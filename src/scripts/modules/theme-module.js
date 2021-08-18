@@ -39,19 +39,6 @@ $(document).ready(function() {
       },
     });
   };
-
-  const _filter = () => {
-    $(document).ready(function() {
-      $('.fa-angle-down').click(function() {
-      $('.filter-dropdown').toggle();
-      })
-      $("filter-dropdown").hover(function() {
-        $('#dropdown-item').css("display", "block");
-        }, function(){
-        $('#dropdown-item').css("display", "none");
-      });
-    })
-  }
  
 const _headerScroll = () => {
 $(document).ready(function() {
