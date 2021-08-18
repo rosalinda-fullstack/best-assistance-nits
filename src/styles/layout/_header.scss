@@ -42,7 +42,7 @@
     }
 
     .navbar-nav {
-        padding: 41px 0;
+        padding: 43px 33px 37px;
         margin-left: 23%;
     }
     
@@ -65,6 +65,8 @@
         background-color: $orange;
         border: none;
         border-radius: 28px;
+
+        outline: 0;
 
         &:hover {
             list-style: none;
@@ -102,6 +104,7 @@
         border: none;
         border-radius: 24px;
 
+        outline: 0;
         appearance: none;
     
         &:hover {
@@ -545,7 +548,7 @@
         position: fixed;
         z-index: 999;
     
-        width: 91%;
+        width: 92.4%;
     
         background-color: transparent;
     
