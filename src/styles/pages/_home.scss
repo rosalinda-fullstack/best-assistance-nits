@@ -4,6 +4,10 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 
+html {
+  scroll-behavior: smooth;
+}
+
 .home {
   transition: all .2s ease-in-out;
   
@@ -142,6 +146,19 @@
     .icon {
       padding: 69% 0;
     }
+
+    #facebook,
+    #instagram,
+    #linkedin,
+    #share,
+    #mobile {
+      border: 1px solid transparent;  
+      &:hover {
+        border: 1px solid $light-blue;
+
+        transition: 0.3s ease-in-out;
+      }
+    }
   }
 
   .section-mission {
@@ -211,15 +228,25 @@
       background-color: $light-blue;
       border: none;
       border-radius: 28px;
+      border: 1px solid transparent;  
 
       outline: 0;
+      
 
       &:hover {
-        border: none;
+          color: $text-color;
+          list-style: none;
+          outline: none;
+         
+          background-color: $pale-orange;
+          
+          border: 1px solid $light-blue;  
 
-        outline: none;
+          transition: 0.3s ease-in-out;
 
-        transition: 0.3s ease-in-out;
+          #assistance-heading {
+            color: $text-color;
+          }
       }
     } 
     
@@ -231,15 +258,25 @@
       background-color: $pale-orange;
       border: none;
       border-radius: 28px;
+      border: 1px solid transparent;  
 
       outline: 0;
+      
 
       &:hover {
-        border: none;
-
+        color: $text-color;
+        list-style: none;
         outline: none;
+        
+        background-color: $light-blue;
+        
+        border: 1px solid $orange;  
 
         transition: 0.3s ease-in-out;
+
+        #history-heading {
+          color: $white;
+        }
       }
     } 
     
@@ -638,15 +675,24 @@
       background-color: $light-blue;
       border: none;
       border-radius: 28px;
+      border: 1px solid transparent;  
 
       outline: 0;
+      
 
       &:hover {
-        border: none;
-
+        list-style: none;
         outline: none;
+        
+        background-color: $pale-orange;
+        
+        border: 1px solid $blue;  
 
         transition: 0.3s ease-in-out;
+
+        .btn-text {
+          color: $text-color;
+        }
       }
     }
 
@@ -760,15 +806,24 @@
       background-color: $light-blue;
       border: none;
       border-radius: 28px;
+      border: 1px solid transparent;  
 
       outline: 0;
+      
 
       &:hover {
-        border: none;
-        
+        list-style: none;
         outline: none;
+        
+        background-color: $pale-orange;
+        
+        border: 1px solid $blue;  
 
         transition: 0.3s ease-in-out;
+
+        .btn-text {
+          color: $text-color;
+        }
       }
     }
 
@@ -827,8 +882,13 @@
     
     #border {
       margin-bottom: 0;
+      position: relative;
+      bottom: 266px;
 
       background-color: $white;
+      margin-top: 0;
+      border: 0;
+      border-top: 1px solid rgba(0,0,0,.1);
     }
 
     .flex-content {
@@ -1688,7 +1748,12 @@
           }
         }
       }
+
+      #border {
+        display: none;
+      }
     }
+
   }
 }
 
@@ -2298,14 +2363,14 @@
     }
   
     .section-assistance-app {  
-      padding-bottom: 117px;
+      padding-bottom: 80px;
       margin-top: 0;
   
       .flex-info {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 0;
+        margin-bottom: 211px;
         height: 218px;
       }
   
@@ -2340,7 +2405,7 @@
       }
   
       #border {
-        margin-top: 40%;
+        display: none;
       }
 
       .flex-content {
@@ -3138,6 +3203,7 @@
       }
   
       .image-info-holder {
+        margin-top: 27px;
         width: 36%;
         
         &:first-child {
@@ -3212,6 +3278,11 @@
             font-size: 12px;
           }
         }
+      }
+
+      #border {
+        position: relative;
+        bottom: 276px;
       }
     }
   }
@@ -3848,6 +3919,10 @@
       .description {
         margin-bottom: 30px;
         width: 97%;
+      }
+      
+      .flex-content {
+        margin-top: 17px;
       }
       
       .image-info {

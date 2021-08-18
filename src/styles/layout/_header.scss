@@ -65,13 +65,19 @@
         background-color: $orange;
         border: none;
         border-radius: 28px;
+        border: 1px solid transparent;  
 
         outline: 0;
+        
 
         &:hover {
+            color: $text-color;
             list-style: none;
-
             outline: none;
+           
+            background-color: $light-blue;
+            
+            border: 1px solid $orange;  
 
             transition: 0.3s ease-in-out;
         }
@@ -217,14 +223,20 @@
             background-color: $orange;
             border: none;
             border-radius: 28px;
+            border: 1px solid transparent;  
 
+            outline: 0;
+            
+    
             &:hover {
+                color: $text-color;
                 list-style: none;
-
-                border: none;
-
                 outline: none;
-
+               
+                background-color: $light-blue;
+                
+                border: 1px solid $orange;  
+    
                 transition: 0.3s ease-in-out;
             }
         }
