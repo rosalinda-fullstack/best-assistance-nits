@@ -19,7 +19,6 @@
             font-family: $font-opensans-semibold;
             list-style: none; 
             overflow: hidden;
-<<<<<<< HEAD
 
             background-color: transparent;
         }
@@ -28,16 +27,6 @@
             float: left; 
         }
 
-=======
-
-            background-color: transparent;
-        }
-
-        .breadcrumb li { 
-            float: left; 
-        }
-
->>>>>>> ed7808c (desktop layout done)
         .breadcrumb li a {
             position: relative; 
 
@@ -237,7 +226,7 @@
                 .right-leaf {
                     position: relative;
                     bottom: 30px;
-                    left: 2%;
+                    left: 12.4%;
 
                     width: 14.5%;
                 }
