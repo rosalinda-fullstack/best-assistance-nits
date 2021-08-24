@@ -449,7 +449,12 @@
                 
                 background-color: $white;
             }
+            
+            .nav-item {
+                margin-left: 9%;
+            }
         }
+
 
         .navbar-brand {
             padding: 0;
@@ -560,7 +565,7 @@
         position: fixed;
         z-index: 999;
     
-        width: 92.4%;
+        width: 100%;
     
         background-color: transparent;
     

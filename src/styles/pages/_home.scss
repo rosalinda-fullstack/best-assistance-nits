@@ -3799,12 +3799,6 @@ html {
   
     .section-system-platform {
       padding-bottom: 0;
-
-      .plain-leaf-background {
-        position: relative;
-        top: 41;
-        left: 0;
-      }
   
       .flex-platform {
         padding-top: 0;
@@ -3812,19 +3806,7 @@ html {
       }
   
       .plain-leaf-background {
-        position: relative;
-        top: 64px;
-        left: 96px;
-  
-        display: flex;
-        justify-content: flex-end;
-        height: 111px;
-      }
-  
-      #bottom-leaf-background {
-        margin-right: 9%;
-        width: 17%;
-        height: 120px;
+        display: none;
       }
   
       #monitor {
