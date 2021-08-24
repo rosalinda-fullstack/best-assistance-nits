@@ -2,7 +2,7 @@
     transition: all .2s ease-in-out;
     
     .section-banner {
-        padding-top: 34.3%;
+        padding-top: 654px;
         
         background-image: url("../assets/images/resized.jpg");
         background-position: left 38%;
@@ -16,9 +16,17 @@
             background: none;
         }
 
+<<<<<<< HEAD
         .breadcrumb { 
             padding: 0;
             margin-left: 24%;
+=======
+        .breadcrumb-list {
+            display: flex;
+            flex-direction: row;
+            padding-left: 9.4%;
+            margin-bottom: 0;
+>>>>>>> 15e97ad (revision done)
 
             font-size: 19px;
             font-family: $font-opensans-semibold;
@@ -36,7 +44,13 @@
             position: relative; 
 
             display: block;
+<<<<<<< HEAD
             padding: 14px 33px 14px 33px;
+=======
+
+            font-size: 19px;
+            text-decoration: none; 
+>>>>>>> 15e97ad (revision done)
             
             color: $text-color;
             text-decoration: none; 
@@ -46,19 +60,48 @@
             float: left;
         }
 
+<<<<<<< HEAD
         .breadcrumb li a:hover { 
+=======
+        .breadcrumb li:first-child a {
+            padding: 14px 23px 13px 32px;
+
+>>>>>>> 15e97ad (revision done)
             color: $white;
+            
+            letter-spacing: 1.3px;
 
             background: $dark-blue; 
         }
 
+<<<<<<< HEAD
         .second-navbar {
             .collapsed {
                 margin-left: 41%;
+=======
+        .breadcrumb li:nth-child(2) a { 
+            padding: 14px 58px 13px 69px;
+
+            color: $black;
+            
+            background: $white;
+
+            &:after {
+                border-left: 0 solid transparent;
+            }
+
+            &:hover {
+                color: $white;
+
+                background: $black;
+                border-left: $black;
+>>>>>>> 15e97ad (revision done)
             }
         }
 
         .breadcrumb li:nth-child(3) a { 
+            padding: 14px 44px 13px 60px;
+
             color: $white;
 
             background: $black;
@@ -78,10 +121,20 @@
             }
         }
 
+<<<<<<< HEAD
             li:after {
                 position: absolute;
                 right: 0;
                 content: '>';
+=======
+        .breadcrumb li:nth-child(4) a {
+            padding: 14px 62px 13px 77px;
+            
+            color: $white;
+            letter-spacing: 0.3px;
+
+            background: $black;
+>>>>>>> 15e97ad (revision done)
 
                 display: inline-block;
                 width: 40px;
@@ -93,15 +146,55 @@
                 border-left: $white;
             }
         }
+
+        .fixed-sidebar {
+            position: fixed;
+            top: 38.3%;
+            right: 0;
+      
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            padding: 0 21px 0;
+            align-items: center;
+      
+            background-color: $light-grey;
+      
+            z-index: 999;
+        }
+      
+        .icon {
+            padding: 69% 0;
+        }
+      
+        #facebook,
+        #instagram,
+        #linkedin,
+        #share,
+        #mobile {
+            border: 1px solid transparent;  
+            
+            &:hover {
+                border: 1px solid $light-blue;
+        
+                transition: 0.3s ease-in-out;
+            }
+        }
     }
 
     .section-second-navbar {
         border-bottom: 1px solid $light-grey;
 
+<<<<<<< HEAD
                 font-size: 13px;
                 color: $text-color;
                 text-decoration: none;
             }
+=======
+        .collapsed {
+            margin: 14px 580px 19px;
+        }
+>>>>>>> 15e97ad (revision done)
 
         ul {
             margin: 0;
@@ -942,7 +1035,7 @@
             .breadcrumb-list {
                 display: flex;
                 flex-direction: row;
-                padding-left: 0;
+                padding-left: 7.4%;
                 margin-bottom: 0;
                 float: left;
                 list-style: none; 
@@ -1040,6 +1133,8 @@
             }
 
             .breadcrumb li:first-child a {
+                padding: 14px 0 13px 20px;
+
                 color: $white;
 
                 &:after { 
@@ -1070,9 +1165,11 @@
             }
 
             .breadcrumb li:nth-child(2) a { 
-                background: $white;
-
+                padding: 14px 14px 13px 38px;
+                
                 color: $black;
+
+                background: $white;
 
                 &:after {
                     border-left: 0 solid transparent;
@@ -1086,7 +1183,9 @@
                 }
             }
 
-            .breadcrumb li:nth-child(3) a { 
+            .breadcrumb li:nth-child(3) a {
+                padding: 14px 16px 13px 8px;
+ 
                 color: $white;
 
                 background: $black;
@@ -1106,6 +1205,8 @@
             }
 
             .breadcrumb li:nth-child(4) a { 
+                padding: 14px 9px 13px 0;
+
                 color: $white;
 
                 background: $black;
@@ -1604,6 +1705,8 @@
             }
 
             .breadcrumb li:first-child a {
+                padding: 14px 10px 13px 20px;
+
                 color: $white;
 
                 &:after { 
@@ -1634,9 +1737,11 @@
             }
 
             .breadcrumb li:nth-child(2) a { 
-                background: $white;
-
+                padding: 14px 34px 13px 52px;
+ 
                 color: $black;
+
+                background: $white;
 
                 &:after {
                     border-left: 0 solid transparent;
@@ -1650,7 +1755,9 @@
                 }
             }
 
-            .breadcrumb li:nth-child(3) a { 
+            .breadcrumb li:nth-child(3) a {
+                padding: 14px 26px 13px 26px;
+
                 color: $white;
 
                 background: $black;
@@ -1670,6 +1777,8 @@
             }
 
             .breadcrumb li:nth-child(4) a { 
+                padding: 14px 30px 13px 10px;
+
                 color: $white;
 
                 background: $black;
