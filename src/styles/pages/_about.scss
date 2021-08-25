@@ -187,6 +187,10 @@
             text-decoration: none;
         }
 
+        .default-blue {
+            color: $light-blue;
+        }
+
         a:hover {
             color: $dark-blue;
             text-decoration: none;
@@ -325,7 +329,11 @@
                 }
     
                 .right {
-                    width: 264px;
+                    position: relative;
+                    left: 215px;
+                    bottom: 27px;
+                    
+                    width: 381px;
                 }
     
                 .round-image {
@@ -624,6 +632,10 @@
                     text-decoration: none;
                 }
     
+            .default-blue {
+                color: $light-blue;
+            }
+
             a:hover {
                 color: $dark-blue;
                 text-decoration: none;
@@ -1165,6 +1177,10 @@
                     border-left: $white;
                 }
             }
+
+            .fixed-sidebar {
+                display: none;
+            }
         }
 
         .section-second-navbar {
@@ -1231,6 +1247,7 @@
             .content-holder {
                 display: flex;
                 flex-direction: column;
+                margin-left: 5%;
             }
     
             .round-image {
@@ -1799,6 +1816,7 @@
             .content-holder {
                 display: flex;
                 flex-direction: column;
+                margin-left: 5%;
             }
     
             .round-image {
@@ -2324,7 +2342,7 @@
             border-bottom: 1px solid $light-grey;
     
             .collapsed {
-                margin: 14px 0 17px;
+                margin: 1% 35% 1%;
             }
     
             ul {
@@ -2350,9 +2368,10 @@
                 content: '>';
     
                 display: inline-block;
-                margin-top: 2px;
+                margin-top: 8px;
                 width: 100%;
     
+                font-size: 14px;
                 text-align: center;
             }
     
@@ -2884,6 +2903,10 @@
                 color: $mid-grey;
                 text-decoration: none;
             }
+            
+            .default-blue {
+                color: $light-blue;
+            }
     
             a:hover {
                 color: $dark-blue;
@@ -3015,13 +3038,19 @@
                     margin-top: 4.5%;
     
                     .right-leaf {
-                        position: relative;
-                        bottom: 30px;
-                        left: 12.4%;
+                        position: unset;
+                        bottom: unset;
+                        left: unset;
     
                         width: 14.5%;
                     }
     
+                    .right {
+                        left: 340px;
+                        bottom: 27px;
+                        width: 390px;
+                    }
+
                     .round-image {
                         margin: 5% 1.6% 0;
                         width: 407px;
