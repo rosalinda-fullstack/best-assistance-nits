@@ -128,23 +128,11 @@ html {
     }
 
     .fixed-sidebar {
-      position: fixed;
-      top: 38.3%;
-      right: 0;
-
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      padding: 0 21px 0;
-      align-items: center;
-
-      background-color: $light-grey;
-
-      z-index: 999;
+      display: none;
     }
 
     .icon {
-      padding: 69% 0;
+      display: none;
     }
 
     #facebook,
@@ -152,12 +140,7 @@ html {
     #linkedin,
     #share,
     #mobile {
-      border: 1px solid transparent;  
-      &:hover {
-        border: 1px solid $light-blue;
-
-        transition: 0.3s ease-in-out;
-      }
+      display: none;
     }
   }
 
@@ -217,83 +200,84 @@ html {
 
     .icon-buttons {
       display: flex;
-      margin: 55px 3px;
+      margin: 53px 0 0;
       width: 411px;
     }
 
     .btn-best-assistance {
-      padding: 19px 0;
-      width: 64%;
+      padding: 0;
+      margin-top: 2px;
+      width: 61%;
 
       background-color: $light-blue;
       border: none;
       border-radius: 28px;
-      border: 1px solid transparent;  
+      border: 2px solid transparent;  
 
       outline: 0;
       
+      .assistance-heading {
+        padding: 16px 0 16px;
+        margin-top: 0;
+        margin-bottom: 0;
 
-      &:hover {
-          color: $text-color;
-          list-style: none;
-          outline: none;
-         
-          background-color: $pale-orange;
-          
-          border: 1px solid $light-blue;  
-
-          transition: 0.3s ease-in-out;
-
-          #assistance-heading {
-            color: $text-color;
-          }
+        font-family: $font-opensans-semibold;
+        font-size: 14px;
+        color: $white;
       }
-    } 
-    
-    .btn-history {
-      padding: 19px 0;
-      margin-left: 8px;
-      width: 64%;
-
-      background-color: $pale-orange;
-      border: none;
-      border-radius: 28px;
-      border: 1px solid transparent;  
-
-      outline: 0;
-      
 
       &:hover {
-        color: $text-color;
         list-style: none;
         outline: none;
+      
+        background-color: $ocean-blue;
         
-        background-color: $light-blue;
-        
-        border: 1px solid $orange;  
+        border: 2px solid $light-blue;  
 
         transition: 0.3s ease-in-out;
 
-        #history-heading {
-          color: $white;
+        .assistance-heading {
+          color: $text-color;
         }
       }
     } 
     
-    .button-heading {
-      margin-top: 0;
-      margin-bottom: 0;
+    .btn-history {
+      padding: 0;
+      margin-top: 2px;
+      margin-left: 10px;
+      width: 63%;
 
-      font-family: $font-opensans-semibold;
-      font-size: 14px;
-    }
+      background-color: $pale-orange;
+      border: none;
+      border-radius: 28px;
+      border: 2px solid transparent;  
 
-    #assistance-heading {
-      color: $white;
-    }
+      outline: 0;
+            
+      .history-heading {
+        padding: 17px 0 17px;
+        margin-bottom: 0;
 
-    #history-heading {
-      color: $text-color;
+        font-family: $font-opensans-semibold;
+        font-size: 14px;
+        color: $text-color
+      }
+      
+      &:hover {
+        list-style: none;
+        outline: none;
+        
+        background-color: $mid-orange;
+        
+        border: 2px solid $pale-orange;  
+
+        transition: 0.3s ease-in-out;
+
+        .history-heading {
+          color: $white;
+        }
+      }
     }
 
     .solution-box {
@@ -669,13 +653,13 @@ html {
     }
 
     .btn-journal {
-      margin: 15px 2px 2px;
+      margin: 16px 2px 0;
       width: 13.3%;
 
       background-color: $light-blue;
       border: none;
       border-radius: 28px;
-      border: 1px solid transparent;  
+      border: 2px solid transparent;  
 
       outline: 0;
       
@@ -684,9 +668,9 @@ html {
         list-style: none;
         outline: none;
         
-        background-color: $pale-orange;
+        background-color: $ocean-blue;
         
-        border: 1px solid $blue;  
+        border: 2px solid $blue;  
 
         transition: 0.3s ease-in-out;
 
@@ -697,7 +681,7 @@ html {
     }
 
     .btn-text {
-      padding: 17px 50px 1px;
+      padding: 14px 50px 0;
 
       font-family: $font-opensans-semibold;
       font-size: 15px;
@@ -799,14 +783,14 @@ html {
     }
 
     .btn-solutions {
-      padding: 18px 53px 2px 52px;
-      margin-top: 35px;
+      padding: 16px 50px 0 49px;
+      margin-top: 37px;
       margin-left: 5px;
 
       background-color: $light-blue;
       border: none;
       border-radius: 28px;
-      border: 1px solid transparent;  
+      border: 2px solid transparent;  
 
       outline: 0;
       
@@ -815,9 +799,9 @@ html {
         list-style: none;
         outline: none;
         
-        background-color: $pale-orange;
+        background-color: $ocean-blue;
         
-        border: 1px solid $blue;  
+        border: 2px solid $blue;  
 
         transition: 0.3s ease-in-out;
 
@@ -828,7 +812,7 @@ html {
     }
 
     .btn-text {
-      font-family: $font-opensans-regular;
+      font-family: $font-opensans-semibold;
       font-size: 15px;
       color: $white;
     }
@@ -1193,24 +1177,37 @@ html {
   
       .icon-buttons {
         margin: 6px 0 0;
-        width: 100%;
+        width: 295px;
       }
   
       .btn-best-assistance {
-        padding: 12px 3px 14px;
-        margin: 0;
-        width: 62.5%;
-      } 
+        margin-top: 0;
+        margin-right: 0;
+        width: 78%;
+        
+        .assistance-heading{
+          padding: 11px 0 11px;
+          margin-top: 0;
+          margin-bottom: 0;
+  
+          font-size: 12px;
+        } 
+      }
       
       .btn-history {
-        padding: 13px 6px 13px;
-        margin-left: 7px;
-        width: 50%;
-      } 
-      
-      .button-heading {
-        font-size: 12px;
+        margin-left: 10px;
+        width: 82%;
+        
+        .history-heading {
+          padding: 8px 0 8px;
+          margin-top: 0;
+          margin-bottom: 0;
+  
+          font-size: 12px;
+        }
       }
+      
+      
   
       .solution-box {
         position: relative;
@@ -1531,12 +1528,12 @@ html {
       }
   
       .btn-journal {
-        margin: 23px 0 0;
+        margin: 22px 0 0;
         width: 49%;
       }
   
       .btn-text {
-        padding: 12px 0 12px 0;
+        padding: 12px 0 8px 0;
         margin-top: 0;
         margin-bottom: 0;
 
@@ -1927,24 +1924,74 @@ html {
       }
   
       .icon-buttons {
-        margin: 6px 0 0;
-        width: 62%;
+        display: flex;
+        margin: 53px 0 0;
+        width: 411px;
       }
-  
+
       .btn-best-assistance {
-        padding: 16px 3px 18px;
-        margin: 0;
-        width: 56.5%;
+        padding: 0;
+        margin-top: 2px;
+        width: 61%;
+  
+        border: none;
+        border-radius: 28px;
+        border: 2px solid transparent;  
+  
+        outline: 0;
+        
+        .assistance-heading {
+          padding: 16px 0 16px;
+          margin-top: 0;
+          margin-bottom: 0;
+  
+          font-family: $font-opensans-semibold;
+          font-size: 14px;
+          color: $white;
+        }
+  
+        &:hover {
+          list-style: none;
+          outline: none;
+          
+          border: 2px solid $light-blue;  
+  
+          transition: 0.3s ease-in-out;
+  
+          .assistance-heading {
+            color: $text-color;
+          }
+        }
       } 
       
       .btn-history {
-        padding: 16px 6px 17px;
-        margin-left: 7px;
-        width: 48%;
-      } 
-      
-      .button-heading {
-        font-size: 12px;
+        padding: 0;
+        margin-top: 2px;
+        margin-left: 10px;
+        width: 63%;
+  
+        border: none;
+        border-radius: 28px;
+        border: 2px solid transparent;  
+  
+        outline: 0;
+              
+        .history-heading {
+          padding: 17px 0 17px;
+          margin-bottom: 0;
+  
+          font-family: $font-opensans-semibold;
+          font-size: 14px;
+        }
+        
+        &:hover {
+          list-style: none;
+          outline: none;
+          
+          border: 2px solid $pale-orange;  
+  
+          transition: 0.3s ease-in-out;
+        }
       }
   
       .solution-box {
@@ -2701,18 +2748,16 @@ html {
       }
   
       .btn-best-assistance {
-        padding: 20px 0 18px;
-        width: 49%;
+        padding: 0;
+        margin-top: 2px;
+        width: 61%;  
       } 
       
       .btn-history {
-        padding: 2px 0 2px;
-        margin: 0 0 0 8px;
-        width: 48%;
-      } 
-      
-      .button-heading {
-        font-size: 14px;
+        padding: 0;
+        margin-top: 2px;
+        margin-left: 10px;
+        width: 63%;  
       }
   
       .solution-box {
@@ -4543,8 +4588,8 @@ html {
       }
   
       .plain-leaf-background {
-        position: relative;
-        top: 4px;
+        position: unset;
+        top: unset;
         left: 0;
   
         display: flex;
@@ -4553,9 +4598,13 @@ html {
       }
   
       #bottom-leaf-background {
+        position: relative;
+        left: 91px;
+        top: 0;
+
         margin-right: 36px;
         width: 21%;
-        height: 277px;
+        height: 285px;
       }
   
       #monitor {
@@ -4580,16 +4629,31 @@ html {
       }
   
       .btn-solutions {
-        padding: 18px 53px 3px 52px;
+        padding: 16px 46px 0 49px;
+        margin-top: 35px;
+        margin-left: 5px;
   
-        background-color: $blue;
+        background-color: $light-blue;
         border: none;
         border-radius: 28px;
+        border: 2px solid transparent;  
+  
+        outline: 0;
+        
   
         &:hover {
+          list-style: none;
           outline: none;
+          
+          background-color: $ocean-blue;
+          
+          border: 2px solid $blue;  
   
           transition: 0.3s ease-in-out;
+  
+          .btn-text {
+            color: $text-color;
+          }
         }
       }
     }

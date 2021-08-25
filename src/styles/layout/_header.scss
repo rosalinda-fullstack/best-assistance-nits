@@ -33,12 +33,8 @@
     }
 
     .navbar-brand {
-        padding-bottom: 21px;
-        padding-left: 3px;
-    }
-
-    .navbar-collapse {
-        align-items: baseline;
+        padding-bottom: 17px;
+        padding-left: 2px;
     }
 
     .navbar-nav {
@@ -50,61 +46,60 @@
         padding-left: 26px;
         
         font-family: $font-opensans-semibold;
-        font-size: 15px;
+        font-size: 14px;
         color: $black;
     }
 
     .nav-item {
-        margin-left: 22px;
+        margin-left: 30px;
     }
 
     .btn-telephone-number {
-        padding: 7px 23px 13px;
-        margin-top: 29px;
+        margin: 37px 0 30px;
+        width: 13.6%;
 
         background-color: $orange;
         border: none;
         border-radius: 28px;
-        border: 1px solid transparent;  
+        border: 2px solid transparent;  
 
         outline: 0;
         
-
         &:hover {
             color: $text-color;
             list-style: none;
             outline: none;
            
-            background-color: $light-blue;
+            background-color: $light-orange;
             
-            border: 1px solid $orange;  
+            border: 2px solid $orange;  
 
             transition: 0.3s ease-in-out;
         }
     }
 
     .telephone-icon {
-        width: 13%;
+        width: 11%;
     }
 
     #telephone-number {
         display: inline-block;
-        padding-left: 2px;
+        padding: 11px 0 10px;
 
-        font-size: 13px;
+        font-size: 15px;
         color: $white;
-        letter-spacing: 0.6px;
         text-decoration: none;
     }
 
     #language-option {
-        padding-left: 21px;
-        width: 6%;
-        height: 48px;
+        padding: 15px 23px 14px;
+        margin: 7px 0 0 4px;
+        width: 5.9%;
 
         font-family: $font-opensans-regular;
-        font-size: 12px;
+        font-size: 14px;
         color: $white;
+        letter-spacing: 0.4px;
 
         background-color: $blue;
         border: none;
@@ -122,9 +117,10 @@
 
     .fa-angle-down {
         position: relative;
-        right: 30px;
+        right: 24px;
+        top: 4px;
 
-        font-size: 14px;
+        font-size: 13px;
         color: $white;
     }
 }
@@ -201,7 +197,8 @@
         }
 
         .navbar-nav {
-          margin-left: 0;  
+            padding: 43px 0 0;
+            margin-left: 0;  
         }
 
         .nav-link {
@@ -216,40 +213,38 @@
         }
 
         .btn-telephone-number {
-            padding: 9px 23px 11px;
-            margin-top: 29px;
-            margin-left: 18px;
+            margin: 0 0 30px 30px;
+            width: 50%;
 
             background-color: $orange;
             border: none;
             border-radius: 28px;
-            border: 1px solid transparent;  
+            border: 2px solid transparent;  
 
             outline: 0;
-            
     
             &:hover {
                 color: $text-color;
                 list-style: none;
                 outline: none;
                
-                background-color: $light-blue;
+                background-color: $light-orange;
                 
-                border: 1px solid $orange;  
+                border: 2px solid $orange;  
     
                 transition: 0.3s ease-in-out;
             }
         }
 
         .telephone-icon {
-            width: 13%;
+            width: 11%;
         }
 
         #telephone-number {
             display: inline-block;
-            padding-left: 2px;
+            padding: 11px 0 11px;
 
-            font-size: 13px;
+            font-size: 14px;
             letter-spacing: 0.6px;
             text-decoration: none;
         }
@@ -276,6 +271,10 @@
         }
 
         .fa-angle-down {
+            position: relative;
+            right: 38px;
+            top: 2px;
+
             font-size: 14px;
         }
     }
@@ -367,9 +366,10 @@
         }
 
         .btn-telephone-number {
-            padding: 9px 23px 11px;
+            padding: 0;
             margin-top: 0;
             margin-left: 11%;
+            width: 30%;
 
             background-color: $orange;
             border: none;
@@ -390,7 +390,7 @@
 
         #telephone-number {
             display: inline-block;
-            padding-left: 2px;
+            padding: 14px 0 13px;
 
             font-size: 13px;
             letter-spacing: 0.6px;
@@ -501,62 +501,75 @@
         }
 
         .btn-telephone-number {
-            padding: 9px 23px 11px;
-            margin-top: 29px;
-            margin-left: 9%;
-
+            margin: 37px 0 30px 68px;
+            width: 22%;
+    
             background-color: $orange;
             border: none;
             border-radius: 28px;
-
+            border: 2px solid transparent;  
+    
+            outline: 0;
+            
             &:hover {
+                color: $text-color;
                 list-style: none;
-
-                border: none;
-                
                 outline: none;
-
+               
+                background-color: $light-orange;
+                
+                border: 2px solid $orange;  
+    
                 transition: 0.3s ease-in-out;
             }
         }
-
+    
         .telephone-icon {
-            width: 13%;
+            width: 11%;
         }
-
+    
         #telephone-number {
             display: inline-block;
-            padding-left: 2px;
-
-            font-size: 13px;
-            letter-spacing: 0.6px;
+            padding: 11px 0 10px;
+    
+            font-size: 15px;
+            color: $white;
             text-decoration: none;
         }
-
+    
         #language-option {
-            padding-left: 21px;
-            margin: 28px 5px 0px;
-            width: 26%;
-
-            font-size: 12px;
+            padding: 15px 23px 14px;
+            margin: 7px 0 0 4px;
+            width: 11%;
+    
+            font-family: $font-opensans-regular;
+            font-size: 14px;
             color: $white;
-
+            letter-spacing: 0.4px;
+    
             background-color: $blue;
             border: none;
             border-radius: 24px;
-
+    
+            outline: 0;
             appearance: none;
         
             &:hover {
                 border: none;
-
+    
                 outline: none;
             }
         }
-
+    
         .fa-angle-down {
-            font-size: 14px;
+            position: relative;
+            right: 34px;
+            top: 0;
+    
+            font-size: 13px;
+            color: $white;
         }
+    
     }
 }
 
@@ -607,43 +620,42 @@
             margin-left: 0;
         }
         
-        .nav-link {
-            padding-left: 26px;
-
-            font-size: 14px;
-        }
-    
+        
         .nav-item {
-            margin-left: 0;
+            margin-left: 18px;
+            
+            .nav-link {
+                padding-right: 0;
+                padding-left: 0;
+
+                font-size: 12px;
+            }
         }
     
         .btn-telephone-number {
-            padding: 7px 0 13px;
-            margin-top: 0;
-            margin-right: 15px;
-            width: 10%;
+            margin: 37px 0 30px 21px;
+            width: 20%;
         }
-    
-        .telephone-icon {
-            width: 32%;
-        }
-    
+
         #telephone-number {
-            display: none;
+            padding: 5px 0 5px;
+            font-size: 12px;
         }
-    
+
         #language-option {
-            padding-left: 19px;
-            width: 10%;
+            padding: 12px 10px 12px;
+            margin: 7px 0 0 4px;
+            width: 8%;
 
             font-size: 12px;
         }
-    
+
         .fa-angle-down {
             position: relative;
-            right: 30px;
-    
-            font-size: 12px;
+            right: 24px;
+            top: 0;
+
+            font-size: 11px;
         }
     }
 }
@@ -679,38 +691,74 @@
         }
     
         .btn-telephone-number {
-            padding: 7px 23px 13px;
-            margin-top: 29px;
-
+            margin: 37px 0 30px 25px;
+            width: 11%;
+    
+            background-color: $orange;
             border: none;
             border-radius: 28px;
+            border: 2px solid transparent;  
     
+            outline: 0;
+            
             &:hover {
+                color: $text-color;
                 list-style: none;
-    
                 outline: none;
+               
+                background-color: $light-orange;
+                
+                border: 2px solid $orange;  
     
                 transition: 0.3s ease-in-out;
             }
         }
-        
+    
+        .telephone-icon {
+            width: 11%;
+        }
+    
+        #telephone-number {
+            display: inline-block;
+            padding: 11px 0 10px;
+    
+            font-size: 15px;
+            color: $white;
+            text-decoration: none;
+        }
+    
         #language-option {
-            padding-left: 21px;
+            padding: 15px 23px 14px;
+            margin: 7px 0 0 4px;
             width: 5%;
-            height: 48px;
     
-            font-size: 12px;
+            font-family: $font-opensans-regular;
+            font-size: 14px;
+            color: $white;
+            letter-spacing: 0.4px;
     
+            background-color: $blue;
             border: none;
             border-radius: 24px;
     
+            outline: 0;
             appearance: none;
         
             &:hover {
                 border: none;
-
+    
                 outline: none;
             }
         }
+    
+        .fa-angle-down {
+            position: relative;
+            right: 24px;
+            top: 4px;
+    
+            font-size: 13px;
+            color: $white;
+        }
+    
     }
 }
