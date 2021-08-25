@@ -128,11 +128,23 @@ html {
     }
 
     .fixed-sidebar {
-      display: none;
+      position: fixed;
+      top: 38.3%;
+      right: 0;
+
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      padding: 0 21px 0;
+      align-items: center;
+
+      background-color: $light-grey;
+
+      z-index: 999;
     }
 
     .icon {
-      display: none;
+        padding: 69% 0;
     }
 
     #facebook,
@@ -140,7 +152,13 @@ html {
     #linkedin,
     #share,
     #mobile {
-      display: none;
+      border: 1px solid transparent;  
+        
+        &:hover {
+          border: 1px solid $light-blue;
+  
+          transition: 0.3s ease-in-out;
+        }
     }
   }
 
@@ -1085,48 +1103,19 @@ html {
       }
   
       .fixed-sidebar {
-        position: fixed;
-        top: 16%;
-        right: 0;
-  
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-  
-        background-color: $light-grey;
+        display: none;
       }
-        
-      .sidebar-icon {
-        &:first-child {
-          margin: 26px 0 0 23px;
-          width: 16%;
-        }
-  
-        &:nth-child(2) {
-          margin: 32px 21px 0;
-          width: 28%;
-        }
-  
-        &:nth-child(3) {
-          margin: 33px 21px 0;
-          width: 30%;
-        }
-  
-        &:nth-child(4) {
-          margin: 33px 21px 22px;
-          width: 28%;
-        }
-  
-        &:last-child {
-          padding: 5px 0 0 0;
-          margin: 0 22px 5px;
-          width: 30%;
-  
-          display: block;
-  
-          border-width: 5px;
-          border-top: 1px $mid-grey solid;
-        }
+
+      .icon {
+        display: none;
+      }
+
+      #facebook,
+      #instagram,
+      #linkedin,
+      #share,
+      #mobile {
+        display: none;
       }
     }
   
@@ -1750,7 +1739,6 @@ html {
         display: none;
       }
     }
-
   }
 }
 
@@ -1831,48 +1819,19 @@ html {
       }
   
       .fixed-sidebar {
-        position: fixed;
-        top: 16%;
-        right: 0;
-  
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-  
-        background-color: $light-grey;
+        display: none;
       }
-        
-      .sidebar-icon {
-        &:first-child {
-          margin: 26px 0 0 23px;
-          width: 16%;
-        }
-  
-        &:nth-child(2) {
-          margin: 32px 21px 0;
-          width: 28%;
-        }
-  
-        &:nth-child(3) {
-          margin: 33px 21px 0;
-          width: 30%;
-        }
-  
-        &:nth-child(4) {
-          margin: 33px 21px 22px;
-          width: 28%;
-        }
-  
-        &:last-child {
-          padding: 5px 0 0 0;
-          margin: 0 22px 5px;
-          width: 30%;
-  
-          display: block;
-  
-          border-width: 5px;
-          border-top: 1px $mid-grey solid;
-        }
+
+      .icon {
+        display: none;
+      }
+
+      #facebook,
+      #instagram,
+      #linkedin,
+      #share,
+      #mobile {
+        display: none;
       }
     }
   
