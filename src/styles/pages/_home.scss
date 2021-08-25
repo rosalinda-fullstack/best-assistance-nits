@@ -128,15 +128,23 @@ html {
     }
 
     .fixed-sidebar {
-      display: none;
+      position: fixed;
+      top: 38.3%;
+      right: 0;
+
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      padding: 0 21px 0;
+      align-items: center;
+
+      background-color: $light-grey;
+
+      z-index: 999;
     }
 
     .icon {
-<<<<<<< HEAD
         padding: 69% 0;
-=======
-      display: none;
->>>>>>> bf01e36 (desktop revision done)
     }
 
     #facebook,
@@ -144,7 +152,6 @@ html {
     #linkedin,
     #share,
     #mobile {
-<<<<<<< HEAD
       border: 1px solid transparent;  
         
         &:hover {
@@ -152,9 +159,6 @@ html {
   
           transition: 0.3s ease-in-out;
         }
-=======
-      display: none;
->>>>>>> bf01e36 (desktop revision done)
     }
   }
 
