@@ -88,7 +88,6 @@
 
         font-size: 15px;
         color: $white;
-        letter-spacing: 0.6px;
         text-decoration: none;
     }
 
@@ -524,11 +523,11 @@
                 transition: 0.3s ease-in-out;
             }
         }
-
+    
         .telephone-icon {
             width: 11%;
         }
-
+    
         #telephone-number {
             display: inline-block;
             padding: 11px 0 10px;
@@ -537,7 +536,7 @@
             color: $white;
             text-decoration: none;
         }
-
+    
         #language-option {
             padding: 15px 23px 14px;
             margin: 7px 0 0 4px;
@@ -561,33 +560,6 @@
                 outline: none;
             }
         }
-
-        .telephone-icon {
-            width: 13%;
-        }
-
-        #telephone-number {
-            display: inline-block;
-            padding-left: 2px;
-
-            font-size: 13px;
-            letter-spacing: 0.6px;
-            text-decoration: none;
-        }
-
-        #language-option {
-            padding-left: 21px;
-            margin: 28px 5px 0px;
-            width: 26%;
-
-            font-size: 12px;
-            color: $white;
-
-            background-color: $blue;
-            border: none;
-            border-radius: 24px;
-
-        appearance: none;
     
         .fa-angle-down {
             position: relative;
@@ -599,11 +571,6 @@
         }
     
     }
-
-        .fa-angle-down {
-            font-size: 14px;
-        }
-    }
 }
 
 @include respond-to (lg) {
@@ -611,7 +578,7 @@
         position: fixed;
         z-index: 999;
     
-        width: 51%;
+        width: 100%;
     
         background-color: transparent;
     
@@ -764,18 +731,13 @@
             padding: 15px 23px 14px;
             margin: 7px 0 0 4px;
             width: 5%;
+    
             font-family: $font-opensans-regular;
             font-size: 14px;
             color: $white;
             letter-spacing: 0.4px;
     
             background-color: $blue;
-
-            height: 48px;
-
-    
-            font-size: 12px;
-
             border: none;
             border-radius: 24px;
     
@@ -800,4 +762,3 @@
     
     }
 }
-    
