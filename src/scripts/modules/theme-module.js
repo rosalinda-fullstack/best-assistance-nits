@@ -5,26 +5,21 @@ AppName.Modules.ThemeModule = (function () {
   //////////////////////
   // Private Methods //
   ////////////////////
+  const _privateMethod = () => {
+    // private stuff
 
-
-const _headerScroll = () => {
-$(document).ready(function() {
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 1){  
-    $('header').addClass("sticky");
-    }
-    else{
-    $('header').removeClass("sticky");
-    }
+    const swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+      },
     });
-  });
-}
+  };
 
   /////////////////////
   // Public Methods //
   ///////////////////
   const init = function () {
-    _headerScroll();
+    _privateMethod();
   };
 
   return {

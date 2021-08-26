@@ -5,12 +5,9 @@
 // -----------------------------------------------------------------------------
 
 /// Regular font family
-$font-opensans: 'Open-Sans';
-$font-opensans-bold:'OpenSans-Bold';
-$font-opensans-regular: 'opensans-regular';
-$font-opensans-semibold: 'OpenSans-Semibold';
+$font-opensans: 'Open Sans';
 
-/// @type Lists
+/// @type List
 $text-font-stack: $font-opensans, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
 
 /// Code (monospace) font family
@@ -42,30 +39,3 @@ $dark-grey: #444 !default;
 /// @example scss - When using a CDN
 ///   $base-url: 'http://cdn.example.com/assets/';
 $base-url: '../assets/' !default;
-
-
-$white: #ffffff;
-
-$pale-orange: #ffdfbf;
-
-$mid-orange: #ff9147;
-
-$light-orange: #ffc299;
-
-$orange: #ff9d5c;
-
-$dark-blue: #1261A0;
-
-$blue: #296d98;
-
-$light-blue: #3895D3;
-
-$pale-blue: #8cd3ff;
-
-$ocean-blue: #bfe6ff;
-
-$apple-green: #8db600;
-
-$light-brown: #C68642;
-
-$grey: #f0f0f0;
