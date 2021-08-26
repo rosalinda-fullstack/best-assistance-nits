@@ -347,10 +347,10 @@
     
                 .right {
                     position: relative;
-                    left: 215px;
+                    left: 100%;
                     bottom: 27px;
-                    
-                    width: 381px;
+
+                    width: 217px;
                 }
     
                 .round-image {
@@ -2988,9 +2988,11 @@
                     }
     
                     .right {
-                        left: 340px;
+                        position: relative;
+                        left: 73.05%;
                         bottom: 27px;
-                        width: 390px;
+                        
+                        width: 279px;
                     }
 
                     .round-image {
