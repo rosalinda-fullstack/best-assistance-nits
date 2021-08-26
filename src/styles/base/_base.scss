@@ -88,13 +88,3 @@ input[type="text"] {
     outline: 0;
   }
 }
-
-.custom-container {
-  max-width: 1534px;
-}
-
-@media screen and (min-width: 2000px) {
-  .custom-container {
-    max-width: 1830px;
-  }
-}
