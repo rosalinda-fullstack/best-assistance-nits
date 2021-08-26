@@ -9,7 +9,7 @@
   <meta name="author" content="">
   <meta name="format-detection" content="telephone=no">
 
-  <title>Modular Gulp Template</title>
+  <title>About</title>
 
   <link rel="icon" href="./assets/images/favicon.ico">
   <link rel="stylesheet" type="text/css" href="./styles/main.min.css">
@@ -32,94 +32,256 @@
       </div>
     </div>
   <![endif]-->
-
-  <header>
-    <nav class="navbar navbar-expand-md">
-      <div class="container">
-        <a href="#" class="navbar-brand">Navbar</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <header class="section-header">
+    <div class="container custom-container">
+      <nav class="navbar navbar-expand-lg">    
+        <a href="/index.html" class="navbar-brand">
+          <img id="bestassistance-logo" class="logo" src="assets/images/logo.fw.png" alt="best-assistance">
+        </a>
+        <div class="show-tablet-buttons"> 
+          <button class="btn-telephone-number" type="button" href="tel:+9611425426"> 
+            <img class="telephone-icon" src="assets/images/1.fw.png" alt="telephone">
+            <a id="telephone-number" href="tel:+9611425426"> +961 1 425 426  </a>
+          </button>
+          <select id="language-option" name="cars">
+            <option value="english">EN</option>
+            <option value="tagalog">TAGALOG</option>
+            <option value="kapampangan">KAPAMPANGAN</option>
+          </select><i class="fa fa-angle-down"></i>
+        </div>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a href="#" class="nav-link">Home
-                <span class="sr-only">(current)</span>
-              </a>
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="/about.html" class="nav-link"> About us </a>
+            </li> 
+            <li class="nav-item">
+              <a href="#" class="nav-link"> Our Partners </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Link</a>
+              <a  href="#" class="nav-link"> Our Turnkey Solutions </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link disabled">Disabled</a>
+              <a href="#" class="nav-link"> My Journal </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"> Contact Us </a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+          <button class="btn-telephone-number" type="button" href="tel:+9611425426"> 
+            <img class="telephone-icon" src="assets/images/1.fw.png" alt="telephone">
+            <a id="telephone-number" href="tel:+9611425426"> +961 1 425 426  </a>
+          </button>
+          <select id="language-option" name="cars">
+            <option value="english">EN</option>
+            <option value="tagalog">TAGALOG</option>
+            <option value="kapampangan">KAPAMPANGAN</option>
+          </select><i class="fa fa-angle-down"></i>
+        </div>
+      </nav>
+    </div>
+  </header> 
+  <main class="about">
+    <div class="section-banner">
+      <div class="container custom-container">
+        <div class="breadcrumb">
+          <ul class="breadcrumb-list">
+            <li class="trail"><a id="arrow-left" href="/" class="text-trail">About Us</a></li>
+            <li class="trail"><a href="/" class="text-trail">Why Us</a></li>
+            <li class="trail"><a href="/" class="text-trail">Our Vision & Mission</a></li>
+            <li class="trail"><a href="/" class="text-trail">Our History</a></li>
+          </ul>
+        </div>
+        <div class="fixed-sidebar">
+          <a href="https://www.facebook.com/" class="icon">
+          <img id="facebook" src="assets/images/fb.fw.png" alt="facebook">
+          </a>
+          <a href="https://www.instagram.com/" class="icon">
+          <img id="instagram" src="assets/images/ig.fw.png" alt="instagram">
+          </a>
+          <a href="https://ph.linkedin.com/" class="icon">
+          <img id="linkedin" src="assets/images/linkedin.fw.png" alt="Linkedin">
+          </a>
+          <a href="#" class="icon">
+            <img id="share" src="assets/images/share.fw.png" alt="share">
+          </a>
+          <a href="#" class="icon">
+            <img id="mobile" src="assets/images/phone.fw.png" alt="mobile">
+          </a>
         </div>
       </div>
-    </nav>
-  </header>
-
-  <main class="home">
-    <div class="section-intro">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="content">
-              <h1>Bootstrap starter template </h1>
-              <a href="index.html">Go to home page.</a>
-              <p>Use this document as a way to quickly start any new project.
-                <br> All you get is this text and a mostly barebones HTML document.</p>
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                Launch demo modal
-              </button>
-
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      Hi I am a sample modal
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Swiper -->
-              <div class="swiper-container">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">Swiper was not added as a dependency here because it is not needed.</div>
-                  <div class="swiper-slide">Swipe Right Again</div>
-                  <div class="swiper-slide">Swipe Left <br /> (or Swipe Right again.)</div>
-                </div>
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
-              </div>
-
+    </div>
+    <div class="section-second-navbar">
+      <div class="container custom-container">
+        <div class="second-navbar">
+          <ul class="collapsed">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#" class="default-blue">Why Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="section-content">
+      <div class="container custom-container">
+        <div class="content-holder">
+          <div class="info-content">
+            <div class="leaf">
+              <img class="left-leaf" src="assets/images/information-system-img2.png" alt="image">
             </div>
+            <div class="info">
+              <span class="title-heading">
+                <h1 class="title"> What we do</h1>
+                <p class="heading">We are a Third-Party Administrator (TPA) and 
+                  a member of Nasco Insurance Group. We manage medical schemes on 
+                  behalf of insurance companies, self-funded schemes, corporations, 
+                  governmental institution and other entities. We do this locally, 
+                  regionally and globally.</p>
+              </span>
+              <div class="image-holder">
+                <img class="round-image" src="assets/images/243_what-we-do.jpg" alt="image">
+              </div>
+            </div>
+          </div>
+          <div class="info-content">
+            <div class="image-holder">
+              <img class="round-image" src="assets/images/082_Our-Values.jpg" alt="image">
+            </div>
+            <span class="title-heading">
+              <h1 class="title"> Our Values</h1>
+                <span class="heading-description">
+                  <p class="values-heading">We earn loyalty, we don’t expect it.</p>
+                  <p id="loyalty"> Because our clients are our first priority, and because we 
+                    genuinely have their best interests at heart, we know how to listen, 
+                    find solutions proactively and be responsive to their needs. 
+                    We consider this our duty and part of the long-term commitment.</p>
+                </span>
+                <span class="heading-description">
+                  <p class="values-heading">We think about what matters.</p>
+                  <p id="matter">In a world full of cautions, terms and conditions, 
+                    restrictions and small print, we look for the best solution for each 
+                    client in an effort to meet every need.</p>
+                </span>
+                <span class="heading-description">
+                  <p class="values-heading">We are as good as our word.</p>
+                  <p id="word">Because we employ the highest professional ethics 
+                    in everything we do, we have earned a reputation for being an 
+                    organization rooted in integrity. We don’t over promise, 
+                    oversell or under deliver, which means we are as good as our word.</p>
+                </span>
+                <span class="heading-description">
+                  <p class="values-heading">We are bold.</p>
+                  <p id="bold">We are enterprising, resolute, and a 
+                    determined partner who brings an inventive and 
+                    resourceful approach to getting things done.</p>
+                </span>
+            </span>
+          </div>
+          <div class="info-content">
+            <span class="title-heading">
+              <h1 class="title">Our people</h1>
+              <span class="space">
+                <p class="heading">Right across Best Assistance, 
+                  ethics and client service are drilled-in to every single team member.
+                </p>
+              </span>
+              <span class="space">
+                <p class="heading">We are always on hand to serve and guide our diverse 
+                  clientele through our solid team that is expert in Pre-Authorization, 
+                  Claims Processing, Production and Underwriting, Customer Service, 
+                  Providers agreements, as well as related insurance-specific services. 
+                  Noting that over 65% of our team are medical and para-medical.
+              </span>
+              <span class="space">
+                <p class="heading">
+                  Our people are our great strength- they are skilled 
+                  professionals committed to excellence.                  
+                </p>
+              </span>
+            </span>
+            <div class="image-holder">
+              <img class="round-image" src="assets/images/Our-People.jpg" alt="image">
+            </div>
+            <div class="right-leaf">
+              <img class="right" src="assets/images/information-system-img2.png" alt="image">
+            </div>
+          </div>
+          <div class="info-content">
+            <div class="image-holder">
+              <img class="round-image" src="assets/images/data.jpg" alt="image">
+            </div>
+            <span class="title-heading">
+              <h1 class="title">Data Confidentiality</h1>
+              <p class="heading">All data – Especially that of 
+                our customers – is subject to highly advanced 
+                security and confidentiality controls. 
+              </p>
+            </span>
           </div>
         </div>
       </div>
     </div>
+    <div class="section-assistance-app">
+      <div class="container custom-container">
+        <div class="all-content-holder">
+          <div class="flex-content">
+            <div class="image-info-holder">
+              <img class="image" src="assets/images/27.fw.png" alt="share">
+              <p class="heading"> Read and share your medical case story with us. Get inspired and motivate others for a healthier lifestyle. </p>
+              <a href="#" class="link"> Share your story </a>
+            </div>
+            <div class="image-info-holder">
+              <img class="image" src="assets/images/28.fw.png" alt="feedback">
+              <p class="heading"> We focus on maintaining a professional customized relationship while administering your medical claim </p>
+              <a href="#" class="link"> Give us your feedback </a>
+            </div>
+            <div id="number-holder" class="image-info-holder">
+              <img class="image" src="assets/images/29.fw.png" alt="dial">
+              <a id="contact-number" href="tel:+9611425426"> +961 1 425 426 </a>
+              <a href="tel:+9611425426" class="link"> Contact us </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr id="border">
+    </div>
   </main>
+  <footer class="section-footer">
+    <div class="container custom-container">
+      <div class="flex-content">
+        <div class="list">
+          <a href="#" id="careers" class="heading">Careers</a>
+          <a href="#" id="policy" class="heading">Privacy Policy</a>
+          <p id="k" class="heading">By &#9408; koein</p>
+        </div>
+        <div class="icons">
+          <div class="grey-icons">
+            <a href="https://www.facebook.com/" class="uncolored-links">    
+              <img src="assets/images/fb-01.fw.png" alt="facebook-png">
+            </a>
+            <a href="https://www.instagram.com/" class="uncolored-links">
+              <img src="assets/images/ig-01.fw.png" alt="instagram-png">
+            </a>
+            <a href="https://www.linkedin.com/" class="uncolored-links">
+              <img src="assets/images/linkedin-01.fw.png" alt="linkedIn-png">
+            </a>
+          </div>
+          <div class="colored-icons">
+            <a href="mailto:hello@fullstack.com" class="colored-links">
+              <img src="assets/images/email.fw.png" alt="email-png">
+            </a>
+            <a href="#" class="colored-links">
+              <img src="assets/images/arrow.fw.png" alt="arrow-png">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <!-- build:js scripts/about.min.js -->
   <script src="./scripts/vendors/jquery.min.js"></script>
