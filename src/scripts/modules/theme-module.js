@@ -7,11 +7,28 @@ AppName.Modules.ThemeModule = (function () {
   ////////////////////
   const _privateMethod = () => {
     // private stuff
-
-    const swiperBanner = new Swiper('.swiperBanner', '.swiper-container', {
+    const swiperBanner = new Swiper('.swiperBanner .swiper-container', {
+      slidesPerView: 1,
+      autoplay: {
+        delay: 2500,
+      },
+      spaceBetween: 0,
+      freeMOde: true,
       pagination: {
         el: '.swiper-pagination',
       },
+      breakpoints: {
+        767:{
+          slidesPerView: 1,
+          spaceBetween: 0
+        },
+        991:{
+          slidesPerView: 1
+        },
+        1199:{
+          slidesPerView: 1
+        }
+      }
     });
   };
 
@@ -40,6 +57,7 @@ const _headerScroll = () => {
       });
     });
 };
+
 
   /////////////////////
   // Public Methods //

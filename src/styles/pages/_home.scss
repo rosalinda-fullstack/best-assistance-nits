@@ -30,7 +30,7 @@ html {
    
     .swiper-slide {
       display: flex;
-      width: 752px;
+      width: 100%;
 
       background: none;
     }
@@ -1762,6 +1762,11 @@ html {
         background: none;
       }
   
+      .swiper-pagination {
+        bottom: 0;
+        width: 12%;
+      }
+
       .banner-title {
         padding-bottom: 5px;
         width: 79%;
@@ -2509,7 +2514,7 @@ html {
   
       .swiper-container {
         margin: 125px 0 0 16px;
-        width: 46%;
+        width: 38%;
         height: auto;
         overflow: hidden;
   
@@ -2518,7 +2523,7 @@ html {
      
       .swiper-slide {
         display: flex;
-        width: 100%;
+        width: 281px;
   
         background: none;
       }
@@ -2537,7 +2542,7 @@ html {
       .swiper-pagination-bullets {
         bottom: 0;
   
-        width: 9%;
+        width: 24%;
       }
   
       .swiper-pagination-bullet-active {
@@ -3301,17 +3306,23 @@ html {
   
       .swiper-container {
         margin: 0 20px 0;
-        width: 69%;
+        width: 42%;
         height: auto;
         overflow: hidden;
   
         background:none;
-      }
      
+      }
+      
       .swiper-slide {
-        width: 100%;
+        width: 430px !important;
       }
   
+      .swiper-pagination-bullets {
+        bottom: 0;
+        width: 12%;
+      }
+
       .banner-title {
         font-size: 35px;
       }
@@ -4002,7 +4013,7 @@ html {
      
       .swiper-slide {
         display: flex;
-        width: 759px;
+        width: 100%;
   
         background: none;
       }
@@ -4019,7 +4030,7 @@ html {
       .swiper-pagination-bullets {
         bottom: 0;
   
-        width: 9%;
+        width: 4%;
       }
   
       .swiper-pagination-bullet-active {
