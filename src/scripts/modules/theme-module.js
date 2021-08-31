@@ -47,9 +47,7 @@ $(document).ready(function() {
   const init = function () {
     _privateMethod();
     _swiperReading();
-    // _filter();
     _headerScroll();
-    _toggle();
   };
 
   return {
