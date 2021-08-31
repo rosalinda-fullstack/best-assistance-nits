@@ -8,7 +8,7 @@ AppName.Modules.ThemeModule = (function () {
   const _privateMethod = () => {
     // private stuff
 
-    const swiperBanner = new Swiper('.swiperBanner .swiper-container', {
+    const swiperBanner = new Swiper('.swiperBanner', '.swiper-container', {
       pagination: {
         el: '.swiper-pagination',
       },
@@ -18,7 +18,7 @@ AppName.Modules.ThemeModule = (function () {
   const _swiperReading = () => {
     // private stuff
 
-    const swiperReading = new Swiper('.swiperReading .swiper-container', {
+    const swiperReading = new Swiper('.swiperReading ',  '.swiper-container', {
       slidesPerView: 'auto',
       spaceBetween: 0,
       pagination: {
@@ -29,17 +29,17 @@ AppName.Modules.ThemeModule = (function () {
   };
  
 const _headerScroll = () => {
-$(document).ready(function() {
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 1){  
-    $('header').addClass("sticky");
-    }
-    else{
-    $('header').removeClass("sticky");
-    }
+  jQuery(document).ready(function() {
+    jQuery(window).scroll(function() {
+      if (jQuery(this).scrollTop() > 1){  
+        jQuery('header').addClass("sticky");
+      }
+      else{
+        jQuery('header').removeClass("sticky");
+      }
+      });
     });
-  });
-}
+};
 
   /////////////////////
   // Public Methods //
@@ -47,9 +47,7 @@ $(document).ready(function() {
   const init = function () {
     _privateMethod();
     _swiperReading();
-    // _filter();
     _headerScroll();
-    _toggle();
   };
 
   return {
