@@ -17,7 +17,7 @@
     &.sticky {
         background-color: $white;
 
-        transition: all 0.4s ease-in-out;
+        transition: all .4s ease-in-out;
     }
     
     .show-tablet-buttons {
@@ -665,7 +665,7 @@
         position: fixed;
         z-index: 999;
     
-        width: 92%;
+        width: 100%;
     
         background-color: transparent;
     
